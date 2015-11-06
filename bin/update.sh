@@ -1,4 +1,5 @@
-
+#!/bin/bash
+. bin/config.inc
 
 for account_id in "${!ACCOUNTS_ID[@]}";
 do
