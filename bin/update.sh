@@ -2,6 +2,8 @@
 
 . bin/config.inc
 
+git pull
+
 if [ ! -f $HISTORY_FILE ]
 then
     echo "date,raw,amount,type,id,rdate,vdate,label" > $HISTORY_FILE
