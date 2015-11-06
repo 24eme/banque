@@ -30,3 +30,5 @@ git diff $LIST_FILE
 
 git add $LIST_FILE
 git commit -m "Mise à jour du solde" $LIST_FILE > /dev/null
+
+git push
