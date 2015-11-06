@@ -7,7 +7,7 @@ then
     echo "date;raw;amount;type;id;rdate;vdate;label" > $HISTORY_FILE
 fi
 
-boobank history $ACCOUNT_ID -n 20 -f csv | sed -r 's/^.+@//' | awk -F ';' '{ print $2 ";" $6 ";" $9 ";" $3 ";" $1 ";" $4 ";" $5 ";" $8 }' | grep -E "^[0-9]+" >> $HISTORY_FILE
+boobank history $ACCOUNT_ID -n 20 -f csv | sed -r 's/^@//' | awk -F ';' '{ print $2 ";" $6 ";" $9 ";" $5 ";" $1 ";" $3 ";" $4 ";" $8 }' | grep -E "^[0-9]+" >> $HISTORY_FILE
 cat $HISTORY_FILE | sort| uniq | sort -r > $HISTORY_FILE.tmp
 cat $HISTORY_FILE.tmp > $HISTORY_FILE
 rm -f $HISTORY_FILE.tmp

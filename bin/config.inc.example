@@ -1,1 +1,3 @@
 ACCOUNT_ID=accound_id@weboobmodule
+HISTORY_FILE=data/history.csv
+LIST_FILE=data/list.csv
