@@ -1,3 +1,3 @@
 # Banque
 
-Ce repository heberge l'historique bancaire du 24ème
+Historique bancaire du 24ème
