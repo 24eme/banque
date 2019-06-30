@@ -9,26 +9,35 @@
 
 
 <center>
-    <h1>Comptes détaillés de l'association Regards Citoyens</h1>
+    <h1>Trésorerie du 24ème</h1>
     <svg id="line_chart"/>
     <div id=soldes>
-	<div>Solde Paypal <div id=solde_paypal></div></div>
 	<div>Solde Crédit Mutuel <div id=solde_creditmutuel></div></div>
     </div>
     <div id=yearcount>Année </div></br>
     <table class=table_totals>
 	<tr><td>Total revenus</td><td id='total_revenus'></td></tr>
-	<tr class=detail><td style='padding-left:20px'>Dons</td><td id='total_dons'></td></tr>
-	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_autres_revenus'></td></tr>
+	<tr class=detail><td style='padding-left:20px'>Vins</td><td id='total_revenus_vins'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Formation</td><td id='total_revenus_formation'></td></tr>
+	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_revenus_autres'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr class=detail><td style='padding-left:20px'>&nbsp;</td><td></td></tr>
+        <tr class=detail><td style='padding-left:20px'>&nbsp;</td><td></td></tr>
+        <tr class=detail><td style='padding-left:20px'>&nbsp;</td><td></td></tr>
     </table>
     <table class=table_totals>
 	<tr><td>Total dépenses</td><td id='total_depenses'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Serveurs</td><td id='total_depenses_serveurs'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Salaires</td><td id='total_depenses_salaires'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Prestations</td><td id='total_depenses_prestations'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Banque & compta</td><td id='total_depenses_banquecompta'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Loyers</td><td id='total_depenses_loyers'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>TVA & DGFIP</td><td id='total_depenses_dgfip'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_autres_depenses'></td></tr>
     </table>
     <br>
     <table id="table_accounting"></table>
-    <footer><small>sources : <a href="https://github.com/regardscitoyens/banque">données et logiciel</a></small></footer>
+    <footer><small>sources : <a href="https://github.com/24eme/banque">données et logiciel</a></small></footer>
 </center>
 
 <style>
@@ -163,30 +172,77 @@
 	 return Math.round(100*_.reduce(xx,function (memo,xxx){return memo+parseFloat(xxx['amount']);},0),4)/100;
      }
      revenus=sum(_.filter(d,function(x){return x['amount'][0]!='-';}));
-     dons=sum(_.filter(d,function(x){return /\bDon( r.current)* de\b/i.test(x['label']);}));
+     revenus_vins=sum(_.filter(d,function(x){return x['amount'][0]!='-' && (
+                                                          /CIVA/.test(x.label) ||
+                                                          /I.V.B.D. /.test(x.label) ||
+                                                          /INTERPRO/.test(x.label) ||
+                                                          /VITICULTEURS/.test(x.label) ||
+                                                          /CIVP/.test(x.label) ||
+                                                          /IVSO/.test(x.label) ||
+                                                          /INTERLOIRE/.test(x.label) ||
+                                                          /ACTUALYS/.test(x.label) ||
+                                                          /HUBSIDE/.test(x.label) ||
+                                                          /VINS/.test(x.label)
+                                                          );}));
+     revenus_formation=sum(_.filter(d,function(x){return x['amount'][0]!='-' && (
+                                                          /PYTH/.test(x.label)
+                                                          )}));
      depenses=-sum(_.filter(d,function(x){return x['amount'][0]=='-';}));
      depenses_serveur=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
 							 (/DEDIBOX/.test(x.label) ||
 							  /(Gandi|GANDI SAS)/.test(x.label) ||
 							  /BOOKMYNAME/.test(x.label) ||
 							  /Online SAS/.test(x.label));}));
+     depenses_salaires=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
+                                                         (/SALAIRE/.test(x.label) ||
+                                                          /VERS /.test(x.label) ||
+                                                          /URSSAF/.test(x.label) ||
+                                                          /APRIL ENTR/.test(x.label) ||
+                                                          /MALAKOF/.test(x.label) ||
+                                                          /CIAMT/.test(x.label)
+                                                          );}));
+     depenses_prestations=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
+                                                         (/TANGUI/.test(x.label) ||
+                                                          /PAIEMENT (THOMAS|PINOT)/.test(x.label) ||
+                                                          /SYSNOVE/.test(x.label) 
+                                                          );}));
+     depenses_banquecompta=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
+                                                         (/FACTURE SGT/.test(x.label) ||
+                                                          /SILLAGE/.test(x.label)
+                                                          );}));
+     depenses_loyers=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
+                                                          /MORNING/.test(x.label) ||
+                                                          /LOYER/.test(x.label) ||
+                                                          /BUREAUX/.test(x.label) ||
+                                                          /BAP LINK/.test(x.label) ||
+                                                          /LESPACE/.test(x.label)
+                                                          );}));
+     depenses_dgfip=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
+                                                          /DGFIP/.test(x.label)
+                                                          );}));
+
      $("#total_revenus").html(formatCurrency(revenus));
-     $("#total_dons").html(formatCurrency(dons));
-     $("#total_autres_revenus").html(formatCurrency(revenus-dons));
+     $("#total_revenus_vins").html(formatCurrency(revenus_vins));
+     $("#total_revenus_formation").html(formatCurrency(revenus_formation));
+     $("#total_revenus_autres").html(formatCurrency(revenus - revenus_vins - revenus_formation));
      $("#total_depenses").html(formatCurrency(depenses));
      $("#total_depenses_serveurs").html(formatCurrency(depenses_serveur));
-     $("#total_autres_depenses").html(formatCurrency(depenses-depenses_serveur));
+     $("#total_depenses_salaires").html(formatCurrency(depenses_salaires));
+     $("#total_depenses_prestations").html(formatCurrency(depenses_prestations));
+     $("#total_depenses_banquecompta").html(formatCurrency(depenses_banquecompta));
+     $("#total_depenses_loyers").html(formatCurrency(depenses_loyers));
+     $("#total_depenses_dgfip").html(formatCurrency(depenses_dgfip));
+     $("#total_autres_depenses").html(formatCurrency(depenses-depenses_serveur-depenses_salaires-depenses_prestations-depenses_banquecompta-depenses_loyers-depenses_dgfip));
      table.column([0]).search(y).draw();
  }
 
  // Loads balance data
- d3.csv("//raw.githubusercontent.com/regardscitoyens/banque/master/data/list.csv", function(data) {
-     $("#solde_paypal").html(formatCurrency(_.filter(data,function (x){return x.id=='paypal';})[0].balance));
-     $("#solde_creditmutuel").html(formatCurrency(_.filter(data,function (x){return x.id=='0603100020568901@creditmutuel';})[0].balance));
+ d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
+     $("#solde_creditmutuel").html(formatCurrency(_.filter(data,function (x){return /Eurocompte/.test(x.label);})[0].balance));
  });
 
  // Loads table data
- d3.csv("//raw.githubusercontent.com/regardscitoyens/banque/master/data/history.csv", function(data) {
+ d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/history.csv", function(data) {
 
      // Initializes table
      table = $('#table_accounting').DataTable( {
