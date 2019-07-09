@@ -9,10 +9,11 @@ then
     echo "date,raw,amount,type,id,rdate,vdate,label" > $HISTORY_FILE
 fi
 
-boobank history $ACCOUNT_ID -n 20 -f csv | sed -r 's/^@//' | awk -F ';' '{ print $3 ",\"" $7 "\"," $10 "," $6 "," $1 "," $4 "," $5 ",\"" $9 "\"" }' | grep -E "^[0-9]+" >> $HISTORY_FILE
-cat $HISTORY_FILE | sort| uniq | sort -r > $HISTORY_FILE.tmp
-cat $HISTORY_FILE.tmp > $HISTORY_FILE
-rm -f $HISTORY_FILE.tmp
+boobank history $ACCOUNT_ID -n 20 -f csv | sed -r 's/^@//' | awk -F ';' '{ print $3 ",\"" $7 "\"," $10 "," $6 "," $1 "," $4 "," $5 ",\"" $9 "\"" }' | grep -E "^[0-9]+" >> $HISTORY_FILE".new"
+tail -n +10 $HISTORY_FILE > $HISTORY_FILE".old"
+cat $HISTORY_FILE".new" $HISTORY_FILE".old" | sort| uniq | sort -r > $HISTORY_FILE".tmp"
+mv $HISTORY_FILE".tmp" $HISTORY_FILE
+rm -f $HISTORY_FILE".old" $HISTORY_FILE".new"
 
 git diff $HISTORY_FILE
 
