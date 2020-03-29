@@ -28,7 +28,7 @@ rm -f $HISTORY_FILE".old" $HISTORY_FILE".new"
 git add $HISTORY_FILE
 git commit -m "Mise à jour des opérations" $HISTORY_FILE > /dev/null
 
-curl "$COZY_URLDATA/io.cozy.bank.accounts/_all_docs?include_docs=true" -b /tmp/cozycookie -H 'Accept: application/json' -H "Authorization: Bearer $COZY_JWTTOKEN" | jq -c '.rows[].doc' | grep "\"$COZY_COMPTEBANCAIRE_ID\"" | jq -c "[.label,.balance,.comingBalance,.currency,.type,\"$COZY_COMPTEBANCAIRE_NOM\"]" | sed 's/"//g' | sed 's/^\[//' | sed 's/\]$//' > $LIST_FILE.tmp
+curl -s "$COZY_URLDATA/io.cozy.bank.accounts/_all_docs?include_docs=true" -b /tmp/cozycookie -H 'Accept: application/json' -H "Authorization: Bearer $COZY_JWTTOKEN" | jq -c '.rows[].doc' | grep "\"$COZY_COMPTEBANCAIRE_ID\"" | jq -c "[.label,.balance,.comingBalance,.currency,.type,\"$COZY_COMPTEBANCAIRE_NOM\"]" | sed 's/"//g' | sed 's/^\[//' | sed 's/\]$//' > $LIST_FILE.tmp
 
 if test $(wc -l $LIST_FILE.tmp | cut -d " " -f 1) -gt 0
 then
