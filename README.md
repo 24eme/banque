@@ -10,6 +10,6 @@ Les données :
 - [Solde](https://github.com/24eme/banque/blob/master/data/list.csv)
 - [Dons](https://github.com/24eme/banque/blob/master/data/dons.csv)
 
-Exploitation :
+Exploitations :
 
 - [Dataviz](https://24eme.github.io/banque/www/)
