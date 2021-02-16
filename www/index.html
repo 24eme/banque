@@ -30,7 +30,8 @@
 	<tr class=detail><td style='padding-left:20px'>Serveurs</td><td id='total_depenses_serveurs'></td></tr>
         <tr class=detail><td style='padding-left:20px'>Salaires</td><td id='total_depenses_salaires'></td></tr>
         <tr class=detail><td style='padding-left:20px'>Prestations</td><td id='total_depenses_prestations'></td></tr>
-        <tr class=detail><td style='padding-left:20px'>Banque & compta</td><td id='total_depenses_banquecompta'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Banque</td><td id='total_depenses_banque'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Compta</td><td id='total_depenses_compta'></td></tr>
         <tr class=detail><td style='padding-left:20px'>Loyers</td><td id='total_depenses_loyers'></td></tr>
         <tr class=detail><td style='padding-left:20px'>TVA & DGFIP</td><td id='total_depenses_dgfip'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_autres_depenses'></td></tr>
@@ -204,11 +205,14 @@
      depenses_prestations=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
                                                          (/TANGUI/.test(x.label) ||
                                                           /PAIEMENT (THOMAS|PINOT)/.test(x.label) ||
-                                                          /SYSNOVE/.test(x.label) 
+                                                          /SYSNOVE/.test(x.label)
                                                           );}));
-     depenses_banquecompta=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
+     depenses_banque=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
                                                          (/FACTURE SGT/.test(x.label) ||
-                                                          /SILLAGE/.test(x.label)
+                                                          /INTERETS/.test(x.label)
+                                                          );}));
+     depenses_compta=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
+                                                          (/SILLAGE/.test(x.label)
                                                           );}));
      depenses_loyers=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
                                                           /MORNING/.test(x.label) ||
@@ -229,10 +233,11 @@
      $("#total_depenses_serveurs").html(formatCurrency(depenses_serveur));
      $("#total_depenses_salaires").html(formatCurrency(depenses_salaires));
      $("#total_depenses_prestations").html(formatCurrency(depenses_prestations));
-     $("#total_depenses_banquecompta").html(formatCurrency(depenses_banquecompta));
+     $("#total_depenses_banque").html(formatCurrency(depenses_banque));
+     $("#total_depenses_compta").html(formatCurrency(depenses_compta));
      $("#total_depenses_loyers").html(formatCurrency(depenses_loyers));
      $("#total_depenses_dgfip").html(formatCurrency(depenses_dgfip));
-     $("#total_autres_depenses").html(formatCurrency(depenses-depenses_serveur-depenses_salaires-depenses_prestations-depenses_banquecompta-depenses_loyers-depenses_dgfip));
+     $("#total_autres_depenses").html(formatCurrency(depenses-depenses_serveur-depenses_salaires-depenses_prestations-depenses_banque-depenses_compta-depenses_loyers-depenses_dgfip));
      table.column([0]).search(y).draw();
  }
 
