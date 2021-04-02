@@ -1,5 +1,4 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
-2021-04-02,"VIR VERS JULIEN RABIER",-45123,card,qonto24emepro,2021-04-02,2021-04-02,"DEMANDE PAR IRC"
 2021-04-01,"RAPIDO PIZZA PARIS FR",-26,card,qonto24emepro,2021-04-01,2021-04-01,"RAPIDO PIZZA PARIS FR"
 2021-04-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2021-04-01,2021-04-01,"Qonto"
 2021-03-31,"MATERIEL.NET NANTES FR",-32.89,card,qonto24emepro,2021-03-31,2021-03-31,"MATERIEL.NET NANTES FR"
