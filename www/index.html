@@ -214,12 +214,18 @@
      depenses_compta=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
                                                           (/SILLAGE/.test(x.label)
                                                           );}));
-     depenses_loyers=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
-                                                          /MORNING/.test(x.label) ||
+     depenses_loyers=-sum(_.filter(d,function(x){return (/MORNING/.test(x.label) ||
                                                           /LOYER/.test(x.label) ||
                                                           /BUREAUX/.test(x.label) ||
                                                           /BAP LINK/.test(x.label) ||
-                                                          /LESPACE/.test(x.label)
+                                                          /LESPACE/.test(x.label) ||
+                                                          /RIVP/.test(x.label) ||
+                                                          /IDSOLAR/.test(x.label) ||
+                                                          /FAISONS-CA/.test(x.label) ||
+                                                          /MARCOPO/.test(x.label) ||
+                                                          /KUTI KUTI/.test(x.label) ||
+                                                          /SATEC/.test(x.label) ||
+                                                          /BERTHAUT/.test(x.label)
                                                           );}));
      depenses_dgfip=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
                                                           /DGFIP/.test(x.label)
