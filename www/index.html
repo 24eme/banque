@@ -13,6 +13,7 @@
     <svg id="line_chart"/>
     <div id=soldes>
 	<div>Solde Crédit Mutuel <div id=solde_creditmutuel></div></div>
+	<div>Solde Qonto <div id=solde_qonto></div></div>
     </div>
     <div id=yearcount>Année </div></br>
     <table class=table_totals>
@@ -250,6 +251,9 @@
  // Loads balance data
  d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
      $("#solde_creditmutuel").html(formatCurrency(_.filter(data,function (x){return /Eurocompte/.test(x.label);})[0].balance));
+ });
+ d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
+     $("#solde_qonto").html(formatCurrency(_.filter(data,function (x){return /Quonto/.test(x.label);})[0].balance));
  });
 
  // Loads table data
