@@ -33,7 +33,7 @@
         <tr class=detail><td style='padding-left:20px'>Prestations</td><td id='total_depenses_prestations'></td></tr>
         <tr class=detail><td style='padding-left:20px'>Banque</td><td id='total_depenses_banque'></td></tr>
         <tr class=detail><td style='padding-left:20px'>Compta</td><td id='total_depenses_compta'></td></tr>
-        <tr class=detail><td style='padding-left:20px'>Loyers</td><td id='total_depenses_loyers'></td></tr>
+        <tr class=detail><td style='padding-left:20px'>Locaux</td><td id='total_depenses_loyers'></td></tr>
         <tr class=detail><td style='padding-left:20px'>TVA & DGFIP</td><td id='total_depenses_dgfip'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_autres_depenses'></td></tr>
     </table>
@@ -215,19 +215,8 @@
      depenses_compta=-sum(_.filter(d,function(x){return x['amount'][0]=='-' &&
                                                           (/SILLAGE/.test(x.label)
                                                           );}));
-     depenses_loyers=-sum(_.filter(d,function(x){return (/MORNING/.test(x.label) ||
-                                                          /LOYER/.test(x.label) ||
-                                                          /BUREAUX/.test(x.label) ||
-                                                          /BAP LINK/.test(x.label) ||
-                                                          /LESPACE/.test(x.label) ||
-                                                          /RIVP/.test(x.label) ||
-                                                          /IDSOLAR/.test(x.label) ||
-                                                          /FAISONS-CA/.test(x.label) ||
-                                                          /MARCOPO/.test(x.label) ||
-                                                          /KUTI KUTI/.test(x.label) ||
-                                                          /SATEC/.test(x.label) ||
-                                                          /BERTHAUT/.test(x.label)
-                                                          );}));
+
+     depenses_loyers=-sum(_.filter(d,function(x){return (x['amount'][0]=='-' && /(MORNING|LOYER|BUREAUX|BAP LINK|LESPACE|RIVP|IDSOLAR|FAISONS-CA|MARCOPO|KUTI KUTI|SATEC|BERTHAUT|Free HautDebit)/.test(x.label));}));
      depenses_dgfip=-sum(_.filter(d,function(x){return x['amount'][0]=='-' && (
                                                           /DGFIP/.test(x.label)
                                                           );}));
@@ -255,10 +244,16 @@
  d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
      $("#solde_qonto").html(formatCurrency(_.filter(data,function (x){return /Quonto/.test(x.label);})[0].balance));
  });
+ 
+ 
 
  // Loads table data
  d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/history.csv", function(data) {
-
+     if(document.location.hash.replace(/^#/, '')) {
+         var regSearch = new RegExp(document.location.hash.replace(/^#/, ''));
+         console.log(regSearch);
+         data = _.filter(data,function(x){return (regSearch.test(x.label));});
+     }
      // Initializes table
      table = $('#table_accounting').DataTable( {
          "data": data.map(function (x) {return [x['date'],(x['amount'])+" €",x['label']];}),
