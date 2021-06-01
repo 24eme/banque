@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-06-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2021-06-01,2021-06-01,"Qonto"
 2021-05-31,"AHJUCAF 24eme -Facture premier trimestre 2021 - Juricaf",3096,income,qonto24emepro,2021-05-31,2021-05-31,"AHJUCAF 24eme -Facture premier trimestre 2021 - Juricaf"
 2021-05-29,"Trainline.COM",9.7,card,qonto24emepro,2021-05-29,2021-05-29,"Trainline.COM"
 2021-05-29,"Trainline.COM",45,card,qonto24emepro,2021-05-29,2021-05-29,"Trainline.COM"
