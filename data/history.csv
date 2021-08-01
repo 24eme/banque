@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-08-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2021-08-01,2021-08-01,"Qonto"
 2021-07-30,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-07-30,2021-07-30,"Qonto"
 2021-07-30,"PRLV SEPA COPREGIF PRL 161019",-228,0,creditmutuel24emepro,2021-07-30,2021-07-30,"SEPA COPREGIF PRL 161019"
 2021-07-30,"LE RUISSEAU PARIS FR",-172.25,card,qonto24emepro,2021-07-30,2021-07-30,"LE RUISSEAU PARIS FR"
