@@ -1,4 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-08-02,"VIR SALAIRE 07/2021",-2650.85,0,creditmutuel24emepro,2021-08-02,2021-08-02,"SALAIRE 07/2021"
+2021-08-02,"VIR PRESTATIONS TANGUI 06/2021",-5070,400130,creditmutuel24emepro,2021-08-02,2021-08-02,"PRESTATIONS TANGUI 06/2021"
+2021-08-02,"VIR NDF 07/2021",-611.42,0,creditmutuel24emepro,2021-08-02,2021-08-02,"NDF 07/2021"
 2021-08-02,"SYND IGP VITICOLES BDR 4eme echeance",1565.1,income,qonto24emepro,2021-08-02,2021-08-02,"SYND IGP VITICOLES BDR 4eme echeance"
 2021-08-02,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance  juillet 2",-690,direct_debit,qonto24emepro,2021-08-02,2021-08-02,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance  juillet 2"
 2021-08-02,"OVH ROUBAIX FR",-14.41,card,qonto24emepro,2021-08-02,2021-08-02,"OVH ROUBAIX FR"
