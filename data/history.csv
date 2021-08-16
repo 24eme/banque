@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-08-16,"Sysnove Paiement facture Sysnove 3784",-348,direct_debit,qonto24emepro,2021-08-16,2021-08-16,"Sysnove Paiement facture Sysnove 3784"
 2021-08-12,"Ass. Viticulteurs d'Alsace Fa 2021073100578 AVA",3276,income,qonto24emepro,2021-08-12,2021-08-12,"Ass. Viticulteurs d'Alsace Fa 2021073100578 AVA"
 2021-08-12,"AHJUCAF Le 24EME - Maintenance JURICAF 3eme trimestre 2021",3096,income,qonto24emepro,2021-08-12,2021-08-12,"AHJUCAF Le 24EME - Maintenance JURICAF 3eme trimestre 2021"
 2021-08-10,"Online SAS DEDIBOX 4189924",-716.08,direct_debit,qonto24emepro,2021-08-10,2021-08-10,"Online SAS DEDIBOX 4189924"
