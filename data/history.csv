@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2021-09-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2021-09-01,2021-09-01,"Qonto"
+2021-09-01,"24eme // Jean-Baptiste LE METAYER Salaire 08/2021",-2707.79,transfer,qonto24emepro,2021-09-01,2021-09-01,"24eme // Jean-Baptiste LE METAYER Salaire 08/2021"
 2021-08-31,"VIR INTERVINS 2527 F/ 20210731 2021073100567 TMA 3IEM TRIMESTRE",1382.24,0,creditmutuel24emepro,2021-08-31,2021-08-31,"INTERVINS 2527 F/ 20210731 2021073100567 TMA 3IEM TRIMESTRE"
 2021-08-31,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance  aout 2021",-3003,direct_debit,qonto24emepro,2021-08-31,2021-08-31,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance  aout 2021"
 2021-08-31,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-08-31,2021-08-31,"Qonto"
