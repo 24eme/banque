@@ -30,7 +30,7 @@ git commit -m "Mise à jour des opérations (cozy)" $HISTORY_FILE > /dev/null
 
 curl -s "$COZY_URLDATA/io.cozy.bank.accounts/_all_docs?include_docs=true" -b /tmp/cozycookie -H 'Accept: application/json' -H "Authorization: Bearer $COZY_JWTTOKEN" | jq -c '.rows[].doc' | grep "\"$COZY_COMPTEBANCAIRE_ID\"" | jq -c "[.label,.balance,.comingBalance,.currency,.type,\"$COZY_COMPTEBANCAIRE_NOM\"]" | sed 's/"//g' | sed 's/^\[//' | sed 's/\]$//' > $LIST_FILE.tmp
 
-cat $LIST_FILE | grep -v "^label" | grep -v "$COZY_COMPTEBANCAIRE_NOM" >> $LIST_FILE.tmp
+cat $LIST_FILE | grep -v "^label" | tail -n +20 | grep -v "$COZY_COMPTEBANCAIRE_NOM" >> $LIST_FILE.tmp
 
 echo "label,balance,coming,currency,type,id" > $LIST_FILE
 cat $LIST_FILE.tmp | sort >> $LIST_FILE
