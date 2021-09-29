@@ -19,6 +19,12 @@ curl -s "$COZY_URLDATA/io.cozy.bank.operations/_all_docs?include_docs=true" -b /
 	jq -c "[.rawDate,\"|<\",.originalBankLabel,\"|>\",.amount,.automaticCategoryId,\"$COZY_COMPTEBANCAIRE_NOM\",.rawDate,.valueDate,\"|<\",.label,\"|>\"]" |
 	sed 's/"//g' | sed 's/|<,/"/g' | sed 's/,|>/"/g' | sed 's/\[//g' | sed 's/^\[//' | sed 's/\]$//' >> $HISTORY_FILE".new"
 
+if test $(cat $HISTORY_FILE".new" | grep -v "^date," | wc -l | grep "0") > /dev/null
+then
+	echo "Aucun mouvement à récupérer"
+	exit 0;
+fi
+
 grep "$COZY_COMPTEBANCAIRE_NOM" $HISTORY_FILE | tail -n +15 > $HISTORY_FILE".old"
 grep -v "$COZY_COMPTEBANCAIRE_NOM" $HISTORY_FILE >> $HISTORY_FILE".old"
 cat $HISTORY_FILE".new" $HISTORY_FILE".old" | sed 's/,\(2[0-9-]*\),null,/,\1,\1,/' | awk -F "," 'BEGIN { FPAT = "([^,]+)|(\"[^\"]+\")"; OFS="," }{ gsub(",",".", $2); gsub(",",".",$8); print $0 }' | sort -t "," -k 1,3 -ur > $HISTORY_FILE".tmp"
@@ -30,7 +36,7 @@ git commit -m "Mise à jour des opérations (cozy)" $HISTORY_FILE > /dev/null
 
 curl -s "$COZY_URLDATA/io.cozy.bank.accounts/_all_docs?include_docs=true" -b /tmp/cozycookie -H 'Accept: application/json' -H "Authorization: Bearer $COZY_JWTTOKEN" | jq -c '.rows[].doc' | grep "\"$COZY_COMPTEBANCAIRE_ID\"" | jq -c "[.label,.balance,.comingBalance,.currency,.type,\"$COZY_COMPTEBANCAIRE_NOM\"]" | sed 's/"//g' | sed 's/^\[//' | sed 's/\]$//' > $LIST_FILE.tmp
 
-cat $LIST_FILE | grep -v "^label" | tail -n +20 | grep -v "$COZY_COMPTEBANCAIRE_NOM" >> $LIST_FILE.tmp
+cat $LIST_FILE | grep -v "^label" | grep -v "$COZY_COMPTEBANCAIRE_NOM" >> $LIST_FILE.tmp
 
 echo "label,balance,coming,currency,type,id" > $LIST_FILE
 cat $LIST_FILE.tmp | sort >> $LIST_FILE
