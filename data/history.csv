@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2021-09-30,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance sept 21",-600,direct_debit,qonto24emepro,2021-09-30,2021-09-30,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance sept 21"
 2021-09-30,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-09-30,2021-09-30,"Qonto"
+2021-09-30,"CIVA 24EME 2021083100589",1512,income,qonto24emepro,2021-09-30,2021-09-30,"CIVA 24EME 2021083100589"
 2021-09-24,"REM CHQ REF06022A00",5529,200150,creditmutuel24emepro,2021-09-24,2021-09-24,"REF06022A00"
 2021-09-24,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-09-24,2021-09-24,"Qonto"
 2021-09-24,"PAIEMENT CB 2209 PARIS 10 SNCF INTERNET CARTE 95490566",-162,400850,creditmutuel24emepro,2021-09-24,2021-09-24,"PARIS 10 SNCF INTERNET"
