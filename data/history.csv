@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-10-08,"FEDERATION DES VINS DE NANTES F 2021093000603 DU 30/09/2021      TMA DT 0.50",486,income,qonto24emepro,2021-10-08,2021-10-08,"FEDERATION DES VINS DE NANTES F 2021093000603 DU 30/09/2021      TMA DT 0.50"
 2021-10-08,"Alan ALAN SA - ALAN SA",-463.33,direct_debit,qonto24emepro,2021-10-08,2021-10-08,"Alan ALAN SA - ALAN SA"
 2021-10-07,"Online SAS DEDIBOX 4244136",-716.08,direct_debit,qonto24emepro,2021-10-07,2021-10-07,"Online SAS DEDIBOX 4244136"
 2021-10-06,"Free Telecom Free HautDebit 1064846437",-39.99,direct_debit,qonto24emepro,2021-10-06,2021-10-06,"Free Telecom Free HautDebit 1064846437"
