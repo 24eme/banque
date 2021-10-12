@@ -3,7 +3,7 @@
 cd $(dirname $0)/..
 . config.inc
 
-git pull
+git pull > /dev/null
 
 echo "date,\"raw\",amount,type,id,rdate,vdate,\"label\"" > $HISTORY_FILE".new"
 
@@ -29,4 +29,4 @@ rm $LIST_FILE.tmp
 git add $LIST_FILE
 git commit -m "Mise à jour du solde (qonto)" $LIST_FILE > /dev/null
 
-git push
+git push 2>&1 | grep -v "Everything up-to-date"
