@@ -256,7 +256,7 @@
      }
      // Initializes table
      table = $('#table_accounting').DataTable( {
-         "data": data.map(function (x) {return [x['date'],(x['amount'])+" €",x['label']];}),
+         "data": data.map(function (x) {return [x['date'],formatCurrency(x['amount']),x['label']];}),
          "paging": false,
          "autoWidth":false,
 	 "bFilter":true,
@@ -267,7 +267,7 @@
 	 },
 	 columns:[
 	     {title:"Date",width:'5em'},
-	     {title:"Montant",width:'4.5em'},
+	     {title:"Montant",width:'5em'},
 	     {title:"Commentaire",width:'20em'},
 	 ],
 	 "columnDefs": [
