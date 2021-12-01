@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-12-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2021-12-01,2021-12-01,"Qonto"
 2021-11-30,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance nov 21",-564,direct_debit,qonto24emepro,2021-11-30,2021-11-30,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance nov 21"
 2021-11-30,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-11-30,2021-11-30,"Qonto"
 2021-11-29,"Qonto",-0.6,qonto_fee,qonto24emepro,2021-11-29,2021-11-29,"Qonto"
