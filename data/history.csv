@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2021-12-10,"Online SAS DEDIBOX 4297407",-716.08,direct_debit,qonto24emepro,2021-12-10,2021-12-10,"Online SAS DEDIBOX 4297407"
 2021-12-09,"Free Telecom Free HautDebit 1078437635",-39.99,direct_debit,qonto24emepro,2021-12-09,2021-12-09,"Free Telecom Free HautDebit 1078437635"
 2021-12-08,"CHAMPION",-45.5,card,qonto24emepro,2021-12-08,2021-12-08,"CHAMPION"
 2021-12-08,"Alan ALAN SA by Stripe via PPRO - ALAN SA",-435,direct_debit,qonto24emepro,2021-12-08,2021-12-08,"Alan ALAN SA by Stripe via PPRO - ALAN SA"
