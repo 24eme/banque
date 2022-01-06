@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-01-06,"Free Telecom Free HautDebit 1085267099",-39.99,direct_debit,qonto24emepro,2022-01-06,2022-01-06,"Free Telecom Free HautDebit 1085267099"
 2022-01-05,"Tangui MORLIER Reglement facture 2021110401",-6498,transfer,qonto24emepro,2022-01-05,2022-01-05,"Tangui MORLIER Reglement facture 2021110401"
+2022-01-05,"24eme // Honorine MARIE CHRISTY Salaire 12/2021",-1394.73,transfer,qonto24emepro,2022-01-05,2022-01-05,"24eme // Honorine MARIE CHRISTY Salaire 12/2021"
 2022-01-04,"INTER-MED",1249.8,income,qonto24emepro,2022-01-04,2022-01-04,"INTER-MED"
 2022-01-04,"INTERETS/FRAIS",-139.88,400340,creditmutuel24emepro,2022-01-04,2022-01-04,"INTERETS/FRAIS"
 2022-01-03,"PAIEMENT CB 3012 VINCENNES INFOGREFFE CB CARTE 95490566",-2.8,400500,creditmutuel24emepro,2022-01-03,2022-01-03,"VINCENNES INFOGREFFE CB"
