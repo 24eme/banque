@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-01-06,"PAIEMENT CB 0401 PAYLI2441535/ AMAZON PAYMENTS CARTE 95490566",-39.99,400112,creditmutuel24emepro,2022-01-06,2022-01-06,"PAYLI2441535/ AMAZON PAYMENTS"
 2022-01-06,"Free Telecom Free HautDebit 1085267099",-39.99,direct_debit,qonto24emepro,2022-01-06,2022-01-06,"Free Telecom Free HautDebit 1085267099"
 2022-01-05,"Tangui MORLIER Reglement facture 2021110401",-6498,transfer,qonto24emepro,2022-01-05,2022-01-05,"Tangui MORLIER Reglement facture 2021110401"
 2022-01-05,"SNCF INTERNET",-155,card,qonto24emepro,2022-01-05,2022-01-05,"SNCF INTERNET"
