@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-02-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2022-02-01,2022-02-01,"Qonto"
+2022-02-01,"KUTI KUTI KUTI KUTI   F2022011100653",2790,income,qonto24emepro,2022-02-01,2022-02-01,"KUTI KUTI KUTI KUTI   F2022011100653"
 2022-01-31,"SOLAR BROTHER F2022011100650 24EME SOLAR BRO",5400,income,qonto24emepro,2022-01-31,2022-01-31,"SOLAR BROTHER F2022011100650 24EME SOLAR BRO"
 2022-01-31,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance Jan 2022",-540,direct_debit,qonto24emepro,2022-01-31,2022-01-31,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance Jan 2022"
 2022-01-31,"MARCOPOLETTE loyer 1er trimstre 2022",2880,income,qonto24emepro,2022-01-31,2022-01-31,"MARCOPOLETTE loyer 1er trimstre 2022"
