@@ -1,6 +1,8 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA",684,income,qonto24emepro,2022-02-03,2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA"
 2022-02-02,"24eme // Vincent LAURENT Salaire 01/2022",-2755.77,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Vincent LAURENT Salaire 01/2022"
+2022-02-02,"24eme // Honorine MARIE CHRISTY Salaire 01/2022",-1286.16,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Honorine MARIE CHRISTY Salaire 01/2022"
+2022-02-02,"24eme // Gabriel POMA Salaire 01/2022",-2386.89,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Gabriel POMA Salaire 01/2022"
 2022-02-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2022-02-01,2022-02-01,"Qonto"
 2022-02-01,"OVH",-18.51,card,qonto24emepro,2022-02-01,2022-02-01,"OVH"
 2022-02-01,"KUTI KUTI KUTI KUTI   F2022011100653",2790,income,qonto24emepro,2022-02-01,2022-02-01,"KUTI KUTI KUTI KUTI   F2022011100653"
