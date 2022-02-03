@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA",684,income,qonto24emepro,2022-02-03,2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA"
+2022-02-02,"Tangui MORLIER Reglement facture 2021120801",-4446,transfer,qonto24emepro,2022-02-02,2022-02-02,"Tangui MORLIER Reglement facture 2021120801"
 2022-02-02,"24eme // Vincent LAURENT Salaire 01/2022",-2755.77,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Vincent LAURENT Salaire 01/2022"
 2022-02-02,"24eme // Jean-Baptiste LE METAYER Salaire 01/2022",-2625.89,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Jean-Baptiste LE METAYER Salaire 01/2022"
 2022-02-02,"24eme // Honorine MARIE CHRISTY Salaire 01/2022",-1286.16,transfer,qonto24emepro,2022-02-02,2022-02-02,"24eme // Honorine MARIE CHRISTY Salaire 01/2022"
