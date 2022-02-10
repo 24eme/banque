@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-02-09,"Alan ALAN SA by Stripe via PPRO - ALAN SA",-515,direct_debit,qonto24emepro,2022-02-09,2022-02-09,"Alan ALAN SA by Stripe via PPRO - ALAN SA"
 2022-02-08,"PAIEMENT CB 0702 35314369001 PAYPAL *LINQI061 CARTE 95490566",-115.98,400112,creditmutuel24emepro,2022-02-08,2022-02-08,"35314369001 PAYPAL *LINQI061"
+2022-02-07,"ARMOR MICRO",-50.8,card,qonto24emepro,2022-02-07,2022-02-07,"ARMOR MICRO"
 2022-02-04,"Free Telecom Free HautDebit 1092116739",-39.99,direct_debit,qonto24emepro,2022-02-04,2022-02-04,"Free Telecom Free HautDebit 1092116739"
 2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA",684,income,qonto24emepro,2022-02-03,2022-02-03,"SYNDICAT GENERAL DES C.D.R 24 eme  TMA"
 2022-02-02,"WWW.CIAMT.ORG",-537.6,card,qonto24emepro,2022-02-02,2022-02-02,"WWW.CIAMT.ORG"
