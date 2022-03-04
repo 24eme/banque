@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-03-04,"Free Telecom Free HautDebit 1099013353",-39.99,direct_debit,qonto24emepro,2022-03-04,2022-03-04,"Free Telecom Free HautDebit 1099013353"
 2022-03-03,"Tangui MORLIER Reglement facture 2022011001",-5814,transfer,qonto24emepro,2022-03-03,2022-03-03,"Tangui MORLIER Reglement facture 2022011001"
 2022-03-02,"PAIEMENT CB 0103 PARIS 10 SNCF INTERNET CARTE 95490566",-206,400850,creditmutuel24emepro,2022-03-02,2022-03-02,"PARIS 10 SNCF INTERNET"
 2022-03-02,"PAIEMENT CB 0103 0805-540-303 APPLE.COM/FR CARTE 95490566",-38,400750,creditmutuel24emepro,2022-03-02,2022-03-02,"0805-540-303 APPLE.COM/FR"
