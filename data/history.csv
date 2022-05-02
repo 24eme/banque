@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-05-02,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance avr 2022",-540,direct_debit,qonto24emepro,2022-05-02,2022-05-02,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance avr 2022"
+2022-05-02,"INTER RHÔNE INTERPROFESSION DES VINS AOC - AOP",5610,cheque,qonto24emepro,2022-05-02,2022-05-02,"INTER RHÔNE INTERPROFESSION DES VINS AOC - AOP"
 2022-05-02,"CIVA 24EME 2022033100692",5460,income,qonto24emepro,2022-05-02,2022-05-02,"CIVA 24EME 2022033100692"
 2022-05-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2022-05-01,2022-05-01,"Qonto"
 2022-04-27,"DELL PRODUCTS",-119.44,card,qonto24emepro,2022-04-27,2022-04-27,"DELL PRODUCTS"
