@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-05-06,"SCALEWAY",-47.99,card,qonto24emepro,2022-05-06,2022-05-06,"SCALEWAY"
 2022-05-05,"Free Telecom Free HautDebit 1112839317",-39.99,direct_debit,qonto24emepro,2022-05-05,2022-05-05,"Free Telecom Free HautDebit 1112839317"
 2022-05-04,"Tangui MORLIER Facture 2022030301",-7866,transfer,qonto24emepro,2022-05-04,2022-05-04,"Tangui MORLIER Facture 2022030301"
 2022-05-04,"24eme // Vincent LAURENT Salaire 04/22",-2686.74,transfer,qonto24emepro,2022-05-04,2022-05-04,"24eme // Vincent LAURENT Salaire 04/22"
