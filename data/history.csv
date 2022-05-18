@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-05-18,"24eme // Jean-Baptiste LE METAYER NDF Deplacement Marseille",-213.39,transfer,qonto24emepro,2022-05-18,2022-05-18,"24eme // Jean-Baptiste LE METAYER NDF Deplacement Marseille"
 2022-05-17,"URSSAF UR 117000001551966813    AVR 22788617793000170522",-4586,direct_debit,qonto24emepro,2022-05-17,2022-05-17,"URSSAF UR 117000001551966813    AVR 22788617793000170522"
 2022-05-16,"Sysnove Paiement facture Sysnove 4455",-477.6,direct_debit,qonto24emepro,2022-05-16,2022-05-16,"Sysnove Paiement facture Sysnove 4455"
 2022-05-12,"LOGILAB SA 2022033100690 LOGILAB SA Paris",1365,income,qonto24emepro,2022-05-12,2022-05-12,"LOGILAB SA 2022033100690 LOGILAB SA Paris"
