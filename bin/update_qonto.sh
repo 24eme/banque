@@ -5,6 +5,14 @@ cd $(dirname $0)/..
 
 git pull > /dev/null
 
+
+HTTP_STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}\n" -H "Authorization: $QONTO_IDENTIFIANT:$QONTO_SECRET" "https://thirdparty.qonto.com/v2/transactions?slug=$QONTO_IDENTIFIANT&iban=$QONTO_IBAN")
+
+if test $HTTP_STATUS_CODE -ne "200"; then
+	echo "Le webservice retourne une erreur : $HTTP_STATUS_CODE (http status code)"
+	exit 1
+fi
+
 echo "date,\"raw\",amount,type,id,rdate,vdate,\"label\"" > $HISTORY_FILE".new"
 
 curl -s -H "Authorization: $QONTO_IDENTIFIANT:$QONTO_SECRET" "https://thirdparty.qonto.com/v2/transactions?slug=$QONTO_IDENTIFIANT&iban=$QONTO_IBAN&status\[\]=completed&status\[\]=pending" | jq '.transactions[]' | jq -c "[.emitted_at,.label,.reference,.side,.amount,.operation_type,\"$QONTO_COMPTEBANCAIRE_NOM\",.emitted_at,.emitted_at,.label,.reference]" | sed 's/,"debit",/,-/' | sed 's/,"credit",/,/' |  sed -r 's/"([0-9\-]+)T[0-9:\.]+Z"/\1/g' | sed -r "s/,\"([^,\"]+)\",\"($QONTO_COMPTEBANCAIRE_NOM)\",/,\1,\2,/" | sed 's/,null/,""/g' | sed 's/","/ /g' | sed 's/ "/"/g' | sed -r 's/\[//' | sed 's/\]//' >> $HISTORY_FILE".new"
