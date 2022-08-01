@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-08-01,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance juil 2022",-540,direct_debit,qonto24emepro,2022-08-01,2022-08-01,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance juil 2022"
+2022-08-01,"Qonto",-22.8,qonto_fee,qonto24emepro,2022-08-01,2022-08-01,"Qonto"
 2022-08-01,"AMA MALAKOFF MEDERIC  204989570001      A3M COTI DSN",-495.14,direct_debit,qonto24emepro,2022-08-01,2022-08-01,"AMA MALAKOFF MEDERIC  204989570001      A3M COTI DSN"
 2022-07-29,"LA PISCINE",-138.9,card,qonto24emepro,2022-07-29,2022-07-29,"LA PISCINE"
 2022-07-26,"COTIS ASS PRET 06064 202615 13",-17.4,400120,creditmutuel24emepro,2022-07-26,2022-07-26,"ASS PRET 06064 202615 13"
