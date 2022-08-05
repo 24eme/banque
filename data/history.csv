@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-08-05,"Free Telecom Free HautDebit 1133680798",-39.99,direct_debit,qonto24emepro,2022-08-05,2022-08-05,"Free Telecom Free HautDebit 1133680798"
+2022-08-05,"DES VIGNERONS DU VAR",869.4,income,qonto24emepro,2022-08-05,2022-08-05,"DES VIGNERONS DU VAR"
 2022-08-03,"Tangui MORLIER Facture 2022060801",-8892,transfer,qonto24emepro,2022-08-03,2022-08-03,"Tangui MORLIER Facture 2022060801"
 2022-08-03,"SCALEWAY",-47.99,card,qonto24emepro,2022-08-03,2022-08-03,"SCALEWAY"
 2022-08-03,"24eme // Vincent LAURENT Salaire 07/22",-2662.97,transfer,qonto24emepro,2022-08-03,2022-08-03,"24eme // Vincent LAURENT Salaire 07/22"
