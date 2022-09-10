@@ -1,5 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-09-09,"Online SAS DEDIBOX 4517661",-772.46,direct_debit,qonto24emepro,2022-09-09,2022-09-09,"Online SAS DEDIBOX 4517661"
+2022-09-09,"AFUP",-30,card,qonto24emepro,2022-09-09,2022-09-09,"AFUP"
+2022-09-09,"AFUP",-190,card,qonto24emepro,2022-09-09,2022-09-09,"AFUP"
 2022-09-08,"Alan by Stripe via PPRO Alan by Stripe via PPRO - ALAN SA",-515,direct_debit,qonto24emepro,2022-09-08,2022-09-08,"Alan by Stripe via PPRO Alan by Stripe via PPRO - ALAN SA"
 2022-09-07,"AMVM FACT 2022083100777 DU 31.08.202",3120,income,qonto24emepro,2022-09-07,2022-09-07,"AMVM FACT 2022083100777 DU 31.08.202"
 2022-09-06,"SCALEWAY",-47.99,card,qonto24emepro,2022-09-06,2022-09-06,"SCALEWAY"
