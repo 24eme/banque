@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-09-15,"Sysnove Paiement facture Sysnove 4827",-477.6,direct_debit,qonto24emepro,2022-09-15,2022-09-15,"Sysnove Paiement facture Sysnove 4827"
 2022-09-12,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance aout 2022",-540,direct_debit,qonto24emepro,2022-09-12,2022-09-12,"S.C.O.P. SILLAGE EXPERTS Prelevement echeance aout 2022"
 2022-09-12,"LA MANUFACTURE AGENCY SAS FACTURE 2022063000738",5700,income,qonto24emepro,2022-09-12,2022-09-12,"LA MANUFACTURE AGENCY SAS FACTURE 2022063000738"
 2022-09-12,"FACTURE SGT22060640001990 DONT TVA 1.41EUR",-24.9,400340,creditmutuel24emepro,2022-09-12,2022-09-12,"FACTURE SGT22060640001990 DONT TVA 1.41EUR"
