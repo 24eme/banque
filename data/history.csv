@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-10-01,"Qonto",-22.8,qonto_fee,qonto24emepro,2022-10-01,2022-10-01,"Qonto"
+2022-10-01,"OVH",-15.96,card,qonto24emepro,2022-10-01,2022-10-01,"OVH"
 2022-09-30,"S.C.O.P. SILLAGE EXPERTS prelevement echeance sept 2022",-540,direct_debit,qonto24emepro,2022-09-30,2022-09-30,"S.C.O.P. SILLAGE EXPERTS prelevement echeance sept 2022"
 2022-09-30,"KAWA COFFEE",-154.03,card,qonto24emepro,2022-09-30,2022-09-30,"KAWA COFFEE"
 2022-09-29,"SNCF INTERNET",-206,card,qonto24emepro,2022-09-29,2022-09-29,"SNCF INTERNET"
