@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-10-06,"Free Telecom Free HautDebit 1147662576",-39.99,direct_debit,qonto24emepro,2022-10-06,2022-10-06,"Free Telecom Free HautDebit 1147662576"
+2022-10-06,"DARTY.COM",-29.99,card,qonto24emepro,2022-10-06,2022-10-06,"DARTY.COM"
 2022-10-05,"SCALEWAY",-47.99,card,qonto24emepro,2022-10-05,2022-10-05,"SCALEWAY"
 2022-10-04,"Tangui MORLIER Facture 2022080101",-4446,transfer,qonto24emepro,2022-10-04,2022-10-04,"Tangui MORLIER Facture 2022080101"
 2022-10-04,"S.A.S.   INSTITUT RHODANIEN VIREMENT F/2022083100778",780,income,qonto24emepro,2022-10-04,2022-10-04,"S.A.S.   INSTITUT RHODANIEN VIREMENT F/2022083100778"
