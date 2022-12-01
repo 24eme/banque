@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-12-01,"Qonto",-22.8,qonto_fee,qonto24emepro,2022-12-01,2022-12-01,"Qonto"
 2022-11-30,"SYND IGP VITICOLES BDR TMA  Hbgmt 4T22",703.5,income,qonto24emepro,2022-11-30,2022-11-30,"SYND IGP VITICOLES BDR TMA  Hbgmt 4T22"
 2022-11-30,"SYNDICAT DES VINS IGP D ARDECHE Fact 2022103100805",909,income,qonto24emepro,2022-11-30,2022-11-30,"SYNDICAT DES VINS IGP D ARDECHE Fact 2022103100805"
 2022-11-30,"S.C.O.P. SILLAGE EXPERTS prelevement echeance nov 2022",-540,direct_debit,qonto24emepro,2022-11-30,2022-11-30,"S.C.O.P. SILLAGE EXPERTS prelevement echeance nov 2022"
