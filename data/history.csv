@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-12-05,"SYNDICAT DES COTES DE PROVENCE 24EME",2736,income,qonto24emepro,2022-12-05,2022-12-05,"SYNDICAT DES COTES DE PROVENCE 24EME"
 2022-12-05,"24eme // Nicolas Duclos Salaire 11/2022",-669.12,transfer,qonto24emepro,2022-12-05,2022-12-05,"24eme // Nicolas Duclos Salaire 11/2022"
 2022-12-03,"Trainline SAS",2,card,qonto24emepro,2022-12-03,2022-12-03,"Trainline SAS"
 2022-12-02,"Tangui MORLIER Facture 2022100701",-8208,transfer,qonto24emepro,2022-12-02,2022-12-02,"Tangui MORLIER Facture 2022100701"
