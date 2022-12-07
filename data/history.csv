@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2022-12-07,"Alan by Stripe via PPRO Alan by Stripe via PPRO - CONTRAT SANTE 33768",-515,direct_debit,qonto24emepro,2022-12-07,2022-12-07,"Alan by Stripe via PPRO Alan by Stripe via PPRO - CONTRAT SANTE 33768"
 2022-12-06,"Free Telecom Free HautDebit 1161721071",-39.99,direct_debit,qonto24emepro,2022-12-06,2022-12-06,"Free Telecom Free HautDebit 1161721071"
 2022-12-05,"SYNDICAT DES COTES DE PROVENCE 24EME",2736,income,qonto24emepro,2022-12-05,2022-12-05,"SYNDICAT DES COTES DE PROVENCE 24EME"
 2022-12-05,"SCALEWAY",-47.99,card,qonto24emepro,2022-12-05,2022-12-05,"SCALEWAY"
