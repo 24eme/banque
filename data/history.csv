@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2022-12-16,"Urssaf Ile-de-France (117) UR 117000001551966813    NOV 22788617793000161222",-4945,direct_debit,qonto24emepro,2022-12-16,2022-12-16,"Urssaf Ile-de-France (117) UR 117000001551966813    NOV 22788617793000161222"
 2022-12-15,"Sysnove Paiement facture Sysnove 5087",-822.24,direct_debit,qonto24emepro,2022-12-15,2022-12-15,"Sysnove Paiement facture Sysnove 5087"
+2022-12-15,"KAWA COFFEE",-154.03,card,qonto24emepro,2022-12-15,2022-12-15,"KAWA COFFEE"
 2022-12-13,"LA LOUVE",-186.69,card,qonto24emepro,2022-12-13,2022-12-13,"LA LOUVE"
 2022-12-13,"COMITE NAT.INTERPROFESSIONS facture 2022113000820",1632,income,qonto24emepro,2022-12-13,2022-12-13,"COMITE NAT.INTERPROFESSIONS facture 2022113000820"
 2022-12-10,"ONLINE",-46.76,card,qonto24emepro,2022-12-10,2022-12-10,"ONLINE"
