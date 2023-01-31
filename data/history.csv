@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-01-31,"S.C.O.P. SILLAGE EXPERTS prelevement echeance jan 2023",-570,direct_debit,qonto24emepro,2023-01-31,2023-01-31,"S.C.O.P. SILLAGE EXPERTS prelevement echeance jan 2023"
+2023-01-31,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-01-31,2023-01-31,"Qonto"
 2023-01-30,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-01-30,2023-01-30,"Qonto"
 2023-01-30,"ODGNantes Remboursement double reglement 24e 2022103100800",-360,transfer,qonto24emepro,2023-01-30,2023-01-30,"ODGNantes Remboursement double reglement 24e 2022103100800"
 2023-01-27,"SNCF INTERNET",-199,card,qonto24emepro,2023-01-27,2023-01-27,"SNCF INTERNET"
