@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-02-02,"PRADEL louer bureau",175,income,qonto24emepro,2023-02-02,2023-02-02,"PRADEL louer bureau"
 2023-02-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2023-02-01,2023-02-01,"Qonto"
 2023-02-01,"CIVA 24EME 2022123100829",19890,income,qonto24emepro,2023-02-01,2023-02-01,"CIVA 24EME 2022123100829"
 2023-02-01,"24eme // Vincent LAURENT 24eme // Vincent LAURENT // Janvier 2023",-2630.4,transfer,qonto24emepro,2023-02-01,2023-02-01,"24eme // Vincent LAURENT 24eme // Vincent LAURENT // Janvier 2023"
