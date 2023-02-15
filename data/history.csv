@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-02-15,"Sysnove Paiement facture Sysnove 5252",-861.6,direct_debit,qonto24emepro,2023-02-15,2023-02-15,"Sysnove Paiement facture Sysnove 5252"
+2023-02-15,"Qonto",-9.01,qonto_fee,qonto24emepro,2023-02-15,2023-02-15,"Qonto"
 2023-02-15,"Qonto",-2.38,qonto_fee,qonto24emepro,2023-02-15,2023-02-15,"Qonto"
 2023-02-15,"Qonto",-2.25,qonto_fee,qonto24emepro,2023-02-15,2023-02-15,"Qonto"
 2023-02-15,"PICASOFT Don Picasoft",-48,transfer,qonto24emepro,2023-02-15,2023-02-15,"PICASOFT Don Picasoft"
