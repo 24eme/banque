@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-02-20,"CIVA 24EME 2023013100853",1620,income,qonto24emepro,2023-02-20,2023-02-20,"CIVA 24EME 2023013100853"
+2023-02-20,"CIVA 24EME 2023013100852",10530,income,qonto24emepro,2023-02-20,2023-02-20,"CIVA 24EME 2023013100852"
 2023-02-16,"Urssaf Ile-de-France (117) UR 117000001551966813    JANV23788617793000160223",-5458,direct_debit,qonto24emepro,2023-02-16,2023-02-16,"Urssaf Ile-de-France (117) UR 117000001551966813    JANV23788617793000160223"
 2023-02-16,"Iteanu Avocats 24eme - Solde facture 2301045",-1200,transfer,qonto24emepro,2023-02-16,2023-02-16,"Iteanu Avocats 24eme - Solde facture 2301045"
 2023-02-15,"Sysnove Paiement facture Sysnove 5252",-861.6,direct_debit,qonto24emepro,2023-02-15,2023-02-15,"Sysnove Paiement facture Sysnove 5252"
