@@ -1,4 +1,41 @@
 Date,Organisme,Montant
+2023-02-10,Solr,24
+2023-02-10,HTTP Server,48
+2023-02-10,CouchDB,168
+2023-02-10,borg,72
+2023-02-10,PhpMyAdmin,48
+2023-02-10,creative commons,48
+2023-02-10,debian,168
+2023-02-10,Libreoffice,120
+2023-02-10,Exodus,96
+2023-02-10,fdroid,144
+2023-02-10,framasoft,360
+2023-02-10,Framadate,48
+2023-02-10,PeerTube,96
+2023-02-10,gnome,120
+2023-02-10,letsencrypt,144
+2023-02-10,Mozilla,72
+2023-02-10,Mumble,96
+2023-02-10,NewPipe,96
+2023-02-10,nextcloud,168
+2023-02-10,Open street map,48
+2023-02-10,OpenSSH,24
+2023-02-10,organicmap,96
+2023-02-10,PHP,480
+2023-02-10,Picasoft,48
+2023-02-10,pulsar,48
+2023-02-10,python,72
+2023-02-10,Quadrature du Net,324
+2023-02-10,signal,24
+2023-02-10,Inkscape,48
+2023-02-10,Git,228
+2023-02-10,etherpad,144
+2023-02-10,thunderbird,120
+2023-02-10,tinc,96
+2023-02-10,Tor,120
+2023-02-10,transportr,24
+2023-02-10,Ubuntu,48
+2023-02-10,Yunohost,144
 2022-09-29,April,464
 2021-09-24,April,440
 2020-10-08,April,380
@@ -9,6 +46,6 @@ Date,Organisme,Montant
 2019-06-28,Tinc VPN,150
 2019-06-28,Let's encrypt,150
 2018-10-04,April,200
-2018-04-11,Framasoft,300
 2018-04-12,La maison du libre,250
+2018-04-11,Framasoft,300
 2017-01-11,Framasoft,250
