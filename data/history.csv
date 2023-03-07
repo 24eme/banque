@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-03-07,"INTER-MED",1040.1,income,qonto24emepro,2023-03-07,2023-03-07,"INTER-MED"
+2023-03-07,"AHJUCAF TMA JURICAF 4e trimestre 2022 Facture 2022103100795",3096,income,qonto24emepro,2023-03-07,2023-03-07,"AHJUCAF TMA JURICAF 4e trimestre 2022 Facture 2022103100795"
 2023-03-06,"Free Telecom Free HautDebit 1182969653",-39.99,direct_debit,qonto24emepro,2023-03-06,2023-03-06,"Free Telecom Free HautDebit 1182969653"
 2023-03-03,"SCALEWAY",-52.79,card,qonto24emepro,2023-03-03,2023-03-03,"SCALEWAY"
 2023-03-03,"Qonto",-1,qonto_fee,qonto24emepro,2023-03-03,2023-03-03,"Qonto"
