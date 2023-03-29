@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-03-28,"324466SC",-12,card,qonto24emepro,2023-03-28,2023-03-28,"324466SC"
 2023-03-27,"Trainline SAS",-285.2,card,qonto24emepro,2023-03-27,2023-03-27,"Trainline SAS"
 2023-03-27,"SYNDICAT DES COTES DE PROVENCE 24EME",2340,income,qonto24emepro,2023-03-27,2023-03-27,"SYNDICAT DES COTES DE PROVENCE 24EME"
 2023-03-27,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-03-27,2023-03-27,"Qonto"
