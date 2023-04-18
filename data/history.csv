@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-04-18,"Urssaf Ile-de-France (117) UR 117000001551966813    MARS23788617793000180423",-5458,direct_debit,qonto24emepro,2023-04-18,2023-04-18,"Urssaf Ile-de-France (117) UR 117000001551966813    MARS23788617793000180423"
 2023-04-17,"Sysnove Paiement facture Sysnove 5442",-750.24,direct_debit,qonto24emepro,2023-04-17,2023-04-17,"Sysnove Paiement facture Sysnove 5442"
 2023-04-14,"MME TIPHAINE THUILLIER",525.6,income,qonto24emepro,2023-04-14,2023-04-14,"MME TIPHAINE THUILLIER"
 2023-04-14,"AMVM FACT 2023033100885 DU 31.03.23",1170,income,qonto24emepro,2023-04-14,2023-04-14,"AMVM FACT 2023033100885 DU 31.03.23"
