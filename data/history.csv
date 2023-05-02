@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-05-02,"S.C.O.P. SILLAGE EXPERTS prelevement echeance avr 2023",-624,direct_debit,qonto24emepro,2023-05-02,2023-05-02,"S.C.O.P. SILLAGE EXPERTS prelevement echeance avr 2023"
+2023-05-02,"24eme // Honorine MARIE CHRISTY Salaire 04/23",-1334.72,transfer,qonto24emepro,2023-05-02,2023-05-02,"24eme // Honorine MARIE CHRISTY Salaire 04/23"
 2023-05-02,"24eme // Gabriel POMA 24eme // Gabriel POMA",-2392.34,transfer,qonto24emepro,2023-05-02,2023-05-02,"24eme // Gabriel POMA 24eme // Gabriel POMA"
 2023-05-01,"Qonto",-10.8,qonto_fee,qonto24emepro,2023-05-01,2023-05-01,"Qonto"
 2023-04-28,"Trainline SAS",-358.4,card,qonto24emepro,2023-04-28,2023-04-28,"Trainline SAS"
