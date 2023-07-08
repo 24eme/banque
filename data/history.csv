@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-07-07,"Online SAS DEDIBOX 4735300",-951.9,direct_debit,qonto24emepro,2023-07-07,2023-07-07,"Online SAS DEDIBOX 4735300"
+2023-07-07,"LA LOUVE",-18.35,card,qonto24emepro,2023-07-07,2023-07-07,"LA LOUVE"
 2023-07-07,"24eme Stagiaire // Tanguy LE FAUCHEUR AVANCE SUR SALAIRE",-500,transfer,qonto24emepro,2023-07-07,2023-07-07,"24eme Stagiaire // Tanguy LE FAUCHEUR AVANCE SUR SALAIRE"
 2023-07-06,"TAXI BANNWARTH",-12.5,card,qonto24emepro,2023-07-06,2023-07-06,"TAXI BANNWARTH"
 2023-07-06,"SumUp *TAXIS DES 4 MU",-10.5,card,qonto24emepro,2023-07-06,2023-07-06,"SumUp *TAXIS DES 4 MU"
