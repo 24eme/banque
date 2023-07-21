@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-07-21,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-07-21,2023-07-21,"Qonto"
 2023-07-21,"DGFIP TVA1-072023-3310CA3",-3325,direct_debit,qonto24emepro,2023-07-21,2023-07-21,"DGFIP TVA1-072023-3310CA3"
 2023-07-19,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-07-19,2023-07-19,"Qonto"
 2023-07-19,"ONLINE",-7.19,card,qonto24emepro,2023-07-19,2023-07-19,"ONLINE"
