@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-09-01,"INTER-MED",7200,income,qonto24emepro,2023-09-01,2023-09-01,"INTER-MED"
 2023-08-31,"SYND IGP VITICOLES BDR",710.7,income,qonto24emepro,2023-08-31,2023-08-31,"SYND IGP VITICOLES BDR"
 2023-08-31,"SILLAGE EXPERTS Paris prelevement echeance Aout 2023",-1038,direct_debit,qonto24emepro,2023-08-31,2023-08-31,"SILLAGE EXPERTS Paris prelevement echeance Aout 2023"
 2023-08-31,"Qonto",-0.48,qonto_fee,qonto24emepro,2023-08-31,2023-08-31,"Qonto"
