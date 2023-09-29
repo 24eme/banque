@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-09-29,"Qonto",-0.99,qonto_fee,qonto24emepro,2023-09-29,2023-09-29,"Qonto"
 2023-09-29,"Gîte La Chatellenie - Sancerre Caution location LE METAYER (08 au 11 octobre)",-200,transfer,qonto24emepro,2023-09-29,2023-09-29,"Gîte La Chatellenie - Sancerre Caution location LE METAYER (08 au 11 octobre)"
 2023-09-28,"CREATIVECOMMONS.ORG",-49.43,card,qonto24emepro,2023-09-28,2023-09-28,"CREATIVECOMMONS.ORG"
 2023-09-25,"KAWA COFFEE",-154.03,card,qonto24emepro,2023-09-25,2023-09-25,"KAWA COFFEE"
