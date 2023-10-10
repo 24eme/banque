@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2023-10-10,"RIVP Banque 58 RIVP/4513/499470/10102023/RUIC00472363O00056429",-23240.51,direct_debit,qonto24emepro,2023-10-10,2023-10-10,"RIVP Banque 58 RIVP/4513/499470/10102023/RUIC00472363O00056429"
+2023-10-10,"Gîte La Chatellenie - Sancerre Solde location gite 08 au 11/10",-435,transfer,qonto24emepro,2023-10-10,2023-10-10,"Gîte La Chatellenie - Sancerre Solde location gite 08 au 11/10"
 2023-10-09,"Online SAS DEDIBOX 4796000",-951.9,direct_debit,qonto24emepro,2023-10-09,2023-10-09,"Online SAS DEDIBOX 4796000"
 2023-10-08,"PICTO",-11.7,card,qonto24emepro,2023-10-08,2023-10-08,"PICTO"
 2023-10-07,"ONLINE",-18.72,card,qonto24emepro,2023-10-07,2023-10-07,"ONLINE"
