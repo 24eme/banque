@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-11-07,"Online SAS DEDIBOX 4816360",-1059.64,direct_debit,qonto24emepro,2023-11-07,2023-11-07,"Online SAS DEDIBOX 4816360"
+2023-11-07,"Free Telecom Free HautDebit 1240435119",-39.99,direct_debit,qonto24emepro,2023-11-07,2023-11-07,"Free Telecom Free HautDebit 1240435119"
 2023-11-06,"24eme // Tanguy LE FAUCHEUR note de frais",-42.78,transfer,qonto24emepro,2023-11-06,2023-11-06,"24eme // Tanguy LE FAUCHEUR note de frais"
 2023-11-03,"SCALEWAY",-52.79,card,qonto24emepro,2023-11-03,2023-11-03,"SCALEWAY"
 2023-11-03,"ONLINE",-55.66,card,qonto24emepro,2023-11-03,2023-11-03,"ONLINE"
