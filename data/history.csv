@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2023-12-08,"LA LOUVE",-280.12,card,qonto24emepro,2023-12-08,2023-12-08,"LA LOUVE"
 2023-12-07,"PHAR DU MARCHE",-6.54,card,qonto24emepro,2023-12-07,2023-12-07,"PHAR DU MARCHE"
 2023-12-07,"ASSVAS 2023103101033",195.74,income,qonto24emepro,2023-12-07,2023-12-07,"ASSVAS 2023103101033"
 2023-12-06,"Qonto",-2.4,qonto_fee,qonto24emepro,2023-12-06,2023-12-06,"Qonto"
