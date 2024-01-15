@@ -1,5 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2024-01-15,"Sysnove Paiement facture Sysnove 6244",-686.4,direct_debit,qonto24emepro,2024-01-15,2024-01-15,"Sysnove Paiement facture Sysnove 6244"
+2024-01-15,"Qonto",-2.4,qonto_fee,qonto24emepro,2024-01-15,2024-01-15,"Qonto"
+2024-01-15,"Inter Rhône",5610,cheque,qonto24emepro,2024-01-15,2024-01-15,"Inter Rhône"
 2024-01-15,"ADM ASSOCIATION Facture 2023113001039",4800,income,qonto24emepro,2024-01-15,2024-01-15,"ADM ASSOCIATION Facture 2023113001039"
 2024-01-15,"24eme // Jean-Baptiste LE METAYER NDF decembre / janvier",-404.92,transfer,qonto24emepro,2024-01-15,2024-01-15,"24eme // Jean-Baptiste LE METAYER NDF decembre / janvier"
 2024-01-12,"Code Lutin FA221219-0981 COMPLEMENT",-100,transfer,qonto24emepro,2024-01-12,2024-01-12,"Code Lutin FA221219-0981 COMPLEMENT"
