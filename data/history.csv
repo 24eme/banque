@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2024-02-02,"SYNDICAT DES COTES DE PROVENCE 24EME",780,income,qonto24emepro,2024-02-02,2024-02-02,"SYNDICAT DES COTES DE PROVENCE 24EME"
+2024-02-02,"AMVM FACT F2023123101048",780,income,qonto24emepro,2024-02-02,2024-02-02,"AMVM FACT F2023123101048"
 2024-02-02,"24eme // Vincent LAURENT salaire 01/24",-2663.3,transfer,qonto24emepro,2024-02-02,2024-02-02,"24eme // Vincent LAURENT salaire 01/24"
 2024-02-02,"24eme // Tanguy LE FAUCHEUR salaire 01/24",-2070.6,transfer,qonto24emepro,2024-02-02,2024-02-02,"24eme // Tanguy LE FAUCHEUR salaire 01/24"
 2024-02-02,"24eme // Tangui MORLIER salaire 01/24",-2566.18,transfer,qonto24emepro,2024-02-02,2024-02-02,"24eme // Tangui MORLIER salaire 01/24"
