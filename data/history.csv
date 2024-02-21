@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-02-21,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-02-21,2024-02-21,"Qonto"
 2024-02-21,"DGFIP PASDSN15022024-012024-81072055700034",-844,direct_debit,qonto24emepro,2024-02-21,2024-02-21,"DGFIP PASDSN15022024-012024-81072055700034"
 2024-02-20,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-02-20,2024-02-20,"Qonto"
 2024-02-20,"DES VINS IGP VAUCLUSE",948.9,income,qonto24emepro,2024-02-20,2024-02-20,"DES VINS IGP VAUCLUSE"
