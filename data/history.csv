@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2024-02-26,"SYND GESTION DES VINS",422.14,income,qonto24emepro,2024-02-26,2024-02-26,"SYND GESTION DES VINS"
+2024-02-26,"Qonto",-2.4,qonto_fee,qonto24emepro,2024-02-26,2024-02-26,"Qonto"
 2024-02-26,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-02-26,2024-02-26,"Qonto"
 2024-02-23,"Trainline SAS",-265,card,qonto24emepro,2024-02-23,2024-02-23,"Trainline SAS"
 2024-02-23,"SYNDICAT DES COTES DE PROVENCE 24EME",8970,income,qonto24emepro,2024-02-23,2024-02-23,"SYNDICAT DES COTES DE PROVENCE 24EME"
