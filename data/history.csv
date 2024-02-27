@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-02-27,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-02-27,2024-02-27,"Qonto"
+2024-02-27,"BNIA 24eme // remboursement acompte du 02/03/2023",-1787.5,transfer,qonto24emepro,2024-02-27,2024-02-27,"BNIA 24eme // remboursement acompte du 02/03/2023"
 2024-02-26,"SYND GESTION DES VINS",422.14,income,qonto24emepro,2024-02-26,2024-02-26,"SYND GESTION DES VINS"
 2024-02-26,"Qonto",-2.4,qonto_fee,qonto24emepro,2024-02-26,2024-02-26,"Qonto"
 2024-02-26,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-02-26,2024-02-26,"Qonto"
