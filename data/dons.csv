@@ -1,7 +1,39 @@
 Date,Organisme,Montant
+2024-03-28,Spotube,200
+2024-03-28,Paxo Phone,100
+2024-03-28,Organic Map,220
+2024-03-28,F-Droid,172
+2024-03-28,Ohmyzsh,144
+2024-03-28,Pulsar,280
+2024-03-28,Weblate,120
+2024-03-28,Debian,192
+2024-03-28,Libera.chat,96
+2024-03-28,Superproductivity,288
+2024-03-28,FOSDEM,120
+2024-03-28,Ubuntu-fr,72
+2024-03-28,Quadrature du net,288
+2024-03-28,Gnome,216
+2024-03-28,PHP Foundation,432
+2024-03-28,Newpipe,144
+2024-03-28,GIT,96
+2024-03-28,Signal,24
+2024-03-28,Tinc,48
+2024-03-28,Creative commons,264
+2024-03-28,Davx5,48
+2024-03-28,Fat-Free framework,360
+2024-03-28,OpenVPN,24
+2024-03-28,LineageOS,72
+2024-03-28,Mastodon,24
+2024-03-28,Framasoft,48
+2024-03-28,OSM,48
+2024-03-28,Libreoffice,24
+2024-03-28,OpenBSD,48
+2024-03-28,Apache CouchDB,48
+2024-03-28,Thunderbird,24
+2024-03-28,TransportR,24
 2023-02-10,Solr,24
 2023-02-10,HTTP Server,48
-2023-02-10,CouchDB,168
+2023-02-10,Apache CouchDB,168
 2023-02-10,borg,72
 2023-02-10,PhpMyAdmin,48
 2023-02-10,creative commons,48
@@ -20,10 +52,10 @@ Date,Organisme,Montant
 2023-02-10,Wireshark,168
 2023-02-10,Open street map,48
 2023-02-10,OpenSSH,24
-2023-02-10,organicmap,96
-2023-02-10,PHP,480
+2023-02-10,Organic Map,96
+2023-02-10,PHP Foundation,480
 2023-02-10,Picasoft,48
-2023-02-10,pulsar,48
+2023-02-10,Pulsar,48
 2023-02-10,python,72
 2023-02-10,Quadrature du Net,324
 2023-02-10,signal,24
