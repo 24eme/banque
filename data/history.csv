@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2024-03-22,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-03-22,2024-03-22,"Qonto"
+2024-03-22,"24eme // Tanguy LE FAUCHEUR Avance sur salaire",-650,transfer,qonto24emepro,2024-03-22,2024-03-22,"24eme // Tanguy LE FAUCHEUR Avance sur salaire"
 2024-03-22,"24eme // Tangui MORLIER Rbsmt Notes de Frais mars 2024",-338.8,transfer,qonto24emepro,2024-03-22,2024-03-22,"24eme // Tangui MORLIER Rbsmt Notes de Frais mars 2024"
 2024-03-22,"24eme // Tangui MORLIER Notes de frais Tangui - janvier et fevrier 2024",-73.79,transfer,qonto24emepro,2024-03-22,2024-03-22,"24eme // Tangui MORLIER Notes de frais Tangui - janvier et fevrier 2024"
 2024-03-22,"24eme // Tangui MORLIER Note de Frais Tangui deplacement sancette octobre 2023",-50,transfer,qonto24emepro,2024-03-22,2024-03-22,"24eme // Tangui MORLIER Note de Frais Tangui deplacement sancette octobre 2023"
