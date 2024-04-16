@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2024-04-16,"URSSAF D'ILE DE FRANCE UR 117000001551966813    MARS24788617793000160424",-7804,direct_debit,qonto24emepro,2024-04-16,2024-04-16,"URSSAF D'ILE DE FRANCE UR 117000001551966813    MARS24788617793000160424"
+2024-04-16,"CONSEIL INTERPRO. VINS DE PROVENCE 24EME TMA",7897.5,income,qonto24emepro,2024-04-16,2024-04-16,"CONSEIL INTERPRO. VINS DE PROVENCE 24EME TMA"
 2024-04-15,"Sysnove Paiement facture Sysnove 6524",-494.4,direct_debit,qonto24emepro,2024-04-15,2024-04-15,"Sysnove Paiement facture Sysnove 6524"
 2024-04-12,"UNION VITIC SANCERROISE 3eme echeance - hebergement 1 trime",6913.93,income,qonto24emepro,2024-04-12,2024-04-12,"UNION VITIC SANCERROISE 3eme echeance - hebergement 1 trime"
 2024-04-11,"Benjamin MARTIN DE LA SALLE Virement de Benjamin MARTIN DE LA SALLE",603.6,income,qonto24emepro,2024-04-11,2024-04-11,"Benjamin MARTIN DE LA SALLE Virement de Benjamin MARTIN DE LA SALLE"
