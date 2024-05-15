@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-05-15,"Sysnove Paiement facture Sysnove 6621",-494.4,direct_debit,qonto24emepro,2024-05-15,2024-05-15,"Sysnove Paiement facture Sysnove 6621"
 2024-05-14,"AHJUCAF 24E FACTURE N 2024043001136 TMA TRIMESTRE 2 AHJUCAF",3096,income,qonto24emepro,2024-05-14,2024-05-14,"AHJUCAF 24E FACTURE N 2024043001136 TMA TRIMESTRE 2 AHJUCAF"
 2024-05-13,"SA SA COURTANO",-34.23,card,qonto24emepro,2024-05-13,2024-05-13,"SA SA COURTANO"
 2024-05-07,"Free Telecom Free HautDebit 1284846872",-39.99,direct_debit,qonto24emepro,2024-05-07,2024-05-07,"Free Telecom Free HautDebit 1284846872"
