@@ -15,7 +15,7 @@
 	<div>Solde Crédit Mutuel <div id=solde_creditmutuel></div></div>
 	<div>Solde Qonto <div id=solde_qonto></div></div>
     </div>
-    <div id=yearcount>Année </div></br>
+    <div id=yearcount>Année </div>
     <table class=table_totals>
 	<tr><td>Total revenus</td><td id='total_revenus'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Vins</td><td id='total_revenus_vins'></td></tr>
@@ -37,7 +37,6 @@
         <tr class=detail><td style='padding-left:20px'>TVA & DGFIP</td><td id='total_depenses_dgfip'></td></tr>
 	<tr class=detail><td style='padding-left:20px'>Autres</td><td id='total_autres_depenses'></td></tr>
     </table>
-    <br>
     <table id="table_accounting"></table>
     <footer><small>sources : <a href="https://github.com/24eme/banque">données et logiciel</a></small></footer>
 </center>
@@ -46,6 +45,9 @@
  select {
      background:#eee;
      border-radius:7px;
+ }
+ #yearcount {
+  margin-top: 10px;
  }
  #line_chart #balance_curve {
      fill:none;
@@ -67,6 +69,7 @@
      display:inline-block;
      padding-left:30px;
      padding-right:30px;
+     margin-top: 20px;
  }
  .table_totals tr td:nth-child(2) {
      text-align:right;
@@ -77,11 +80,25 @@
  }
  #table_accounting {
      table-layout: fixed;
-     width: 30em;
+     width: 41em;
  }
  .dataTables_filter {
-     display:none;
+     /* display:none; */
  }
+ #table_accounting_filter {
+   float:none;
+   margin-top: 10px;
+   text-align: center;
+}
+#table_accounting_filter input {
+   width: 46em;
+   height: 30px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 16px;
+   border: none;
+   border-bottom: 1px solid #000;
+}
  #table_accounting tbody tr.odd,
  #table_accounting tbody tr.even {
      background-color: #fff;
@@ -267,8 +284,8 @@
 	 },
 	 columns:[
 	     {title:"Date",width:'5em'},
-	     {title:"Montant",width:'5em'},
-	     {title:"Commentaire",width:'20em'},
+	     {title:"Montant",width:'6em'},
+	     {title:"Commentaire",width:'30em'},
 	 ],
 	 "columnDefs": [
 	     {"targets":1,
@@ -277,6 +294,9 @@
 	      "createdCell": function (td, cellData, rowData, row, col) {
 		  $(td).attr("title",cellData);
 	      }}],
+        "oLanguage": {
+          "sSearch": "🔍"
+        }
      });
 
      // Initializes year selector
