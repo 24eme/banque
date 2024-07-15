@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-07-15,"Sysnove Paiement facture Sysnove 6767",-494.4,direct_debit,qonto24emepro,2024-07-15,2024-07-15,"Sysnove Paiement facture Sysnove 6767"
 2024-07-15,"Sysnove Paiement facture Sysnove 6721",-494.4,direct_debit,qonto24emepro,2024-07-15,2024-07-15,"Sysnove Paiement facture Sysnove 6721"
 2024-07-15,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-07-15,2024-07-15,"Qonto"
 2024-07-12,"CIVA 24EME 2024043001142",3510,income,qonto24emepro,2024-07-12,2024-07-12,"CIVA 24EME 2024043001142"
