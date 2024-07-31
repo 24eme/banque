@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-07-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance juillet  2",-637.2,direct_debit,qonto24emepro,2024-07-31,2024-07-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance juillet  2"
+2024-07-31,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-07-31,2024-07-31,"Qonto"
 2024-07-30,"Qonto",-0.48,qonto_fee,qonto24emepro,2024-07-30,2024-07-30,"Qonto"
 2024-07-30,"CIVA 24EME 2024063001183",780,income,qonto24emepro,2024-07-30,2024-07-30,"CIVA 24EME 2024063001183"
 2024-07-29,"THUILLIER TIPHAINE from THUILLIER TIPHAINE",201.2,income,qonto24emepro,2024-07-29,2024-07-29,"THUILLIER TIPHAINE from THUILLIER TIPHAINE"
