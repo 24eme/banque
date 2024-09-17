@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-09-17,"URSSAF D ILE DE FRANCE UR 117000001551966813    AOUT24788617793000170924",-8313,direct_debit,qonto24emepro,2024-09-17,2024-09-17,"URSSAF D ILE DE FRANCE UR 117000001551966813    AOUT24788617793000170924"
 2024-09-16,"Sysnove Paiement facture Sysnove 7013",-518.4,direct_debit,qonto24emepro,2024-09-16,2024-09-16,"Sysnove Paiement facture Sysnove 7013"
 2024-09-16,"I.V.B.D. 24 EME",6000,income,qonto24emepro,2024-09-16,2024-09-16,"I.V.B.D. 24 EME"
 2024-09-12,"DES VINS IGP DU VAL",825,income,qonto24emepro,2024-09-12,2024-09-12,"DES VINS IGP DU VAL"
