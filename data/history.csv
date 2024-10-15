@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-10-15,"TUE   NET FACTURE N 2024093001244                                               24EME",1980,income,qonto24emepro,2024-10-15,2024-10-15,"TUE   NET FACTURE N 2024093001244                                               24EME"
 2024-10-15,"Sysnove Paiement facture Sysnove 7102",-734.4,direct_debit,qonto24emepro,2024-10-15,2024-10-15,"Sysnove Paiement facture Sysnove 7102"
 2024-10-14,"PRLV SEPA OVH SAS LV116332-OVH. ORDER 216320232 PAYMENT ORDER 216320232",-17.98,400150,creditmutuel24emepro,2024-10-14,2024-10-14,"SEPA OVH SAS LV116332-OVH. ORDER 216320232 PAYMENT ORDER 216320232"
 2024-10-14,"ORGAN DEFENSE GESTION REGLT 24eme FACT 2024093001245",9342,income,qonto24emepro,2024-10-14,2024-10-14,"ORGAN DEFENSE GESTION REGLT 24eme FACT 2024093001245"
