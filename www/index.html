@@ -80,7 +80,7 @@
  }
  #table_accounting {
      table-layout: fixed;
-     width: 41em;
+     width: 54em;
  }
  .dataTables_filter {
      /* display:none; */
@@ -91,13 +91,14 @@
    text-align: center;
 }
 #table_accounting_filter input {
-   width: 46em;
+   width: 40em;
    height: 30px;
    padding-left: 5px;
    padding-right: 5px;
    font-size: 16px;
    border: none;
    border-bottom: 1px solid #000;
+   background-color: #f2f2f2;
 }
  #table_accounting tbody tr.odd,
  #table_accounting tbody tr.even {
@@ -273,7 +274,7 @@
      }
      // Initializes table
      table = $('#table_accounting').DataTable( {
-         "data": data.map(function (x) {return [x['date'],formatCurrency(x['amount']),x['label']];}),
+         "data": data.map(function (x) {return [x['date'],formatCurrency(x['amount']),x['label'], x['id'];}),
          "paging": false,
          "autoWidth":false,
 	 "bFilter":true,
@@ -286,6 +287,7 @@
 	     {title:"Date",width:'5em'},
 	     {title:"Montant",width:'6em'},
 	     {title:"Commentaire",width:'30em'},
+	     {title:"Compte",width:'10em'},
 	 ],
 	 "columnDefs": [
 	     {"targets":1,
