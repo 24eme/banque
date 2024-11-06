@@ -274,7 +274,7 @@
      }
      // Initializes table
      table = $('#table_accounting').DataTable( {
-         "data": data.map(function (x) {return [x['date'],formatCurrency(x['amount']),x['label'], x['id'];}),
+         "data": data.map(function (x) {return [x['date'],formatCurrency(x['amount']),x['label'], x['id']];}),
          "paging": false,
          "autoWidth":false,
 	 "bFilter":true,
