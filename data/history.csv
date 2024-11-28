@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-11-28,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2024-11-28,2024-11-28,"Qonto sepa_inbound_transfer"
+2024-11-28,"I.V.B.D. 24 EME",6000,income,qonto24emepro,2024-11-28,2024-11-28,"I.V.B.D. 24 EME"
 2024-11-27,"24EME VIR DE 24EME",20000,income,qonto24emepro,2024-11-27,2024-11-27,"24EME VIR DE 24EME"
 2024-11-26,"VIR EQUILIBRAGE",-20000,0,creditmutuel24emepro,2024-11-26,2024-11-26,"EQUILIBRAGE"
 2024-11-25,"DES VINS IGP DU VAL",825,income,qonto24emepro,2024-11-25,2024-11-25,"DES VINS IGP DU VAL"
