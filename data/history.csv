@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-12-03,"CIVA 24EME 2024103101281",2730,income,qonto24emepro,2024-12-03,2024-12-03,"CIVA 24EME 2024103101281"
+2024-12-03,"CIVA 24EME 2024103101257",1620,income,qonto24emepro,2024-12-03,2024-12-03,"CIVA 24EME 2024103101257"
 2024-12-03,"24eme // Vincent LAURENT Salaire 11/2024",-2653.42,transfer,qonto24emepro,2024-12-03,2024-12-03,"24eme // Vincent LAURENT Salaire 11/2024"
 2024-12-03,"24eme // Tanguy LE FAUCHEUR Salaire 11/2024",-1991.71,transfer,qonto24emepro,2024-12-03,2024-12-03,"24eme // Tanguy LE FAUCHEUR Salaire 11/2024"
 2024-12-03,"24eme // Tangui MORLIER Salaire 11/2024",-2492.23,transfer,qonto24emepro,2024-12-03,2024-12-03,"24eme // Tangui MORLIER Salaire 11/2024"
