@@ -1,4 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2024-12-30,"SYNDICAT GENERAL DES C.D.R 24 EME TMA NOVEMBRE 2024",780,income,qonto24emepro,2024-12-30,2024-12-30,"SYNDICAT GENERAL DES C.D.R 24 EME TMA NOVEMBRE 2024"
+2024-12-30,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2024-12-30,2024-12-30,"Qonto sepa_inbound_transfer"
 2024-12-30,"LiNK PLATEAU. F 2024-12-042",-2337.66,direct_debit,qonto24emepro,2024-12-30,2024-12-30,"LiNK PLATEAU. F 2024-12-042"
 2024-12-27,"DGFIP TVA1-122024-3310CA3",-4990,direct_debit,qonto24emepro,2024-12-27,2024-12-27,"DGFIP TVA1-122024-3310CA3"
 2024-12-26,"DIONYSOS",-94.22,card,qonto24emepro,2024-12-26,2024-12-26,"DIONYSOS"
