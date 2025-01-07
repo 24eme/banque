@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2025-01-07,"Alan Insurance ALAN CONTRAT SANTE 33768",-1101,direct_debit,qonto24emepro,2025-01-07,2025-01-07,"Alan Insurance ALAN CONTRAT SANTE 33768"
+2025-01-06,"SNCF-VOYAGEURS",-453,card,qonto24emepro,2025-01-06,2025-01-06,"SNCF-VOYAGEURS"
 2025-01-06,"24eme // Jean-Baptiste LE METAYER NDF Decembre 2024",-651.95,transfer,qonto24emepro,2025-01-06,2025-01-06,"24eme // Jean-Baptiste LE METAYER NDF Decembre 2024"
 2025-01-03,"INTERETS/FRAIS",-111.01,400340,creditmutuel24emepro,2025-01-03,2025-01-03,"INTERETS/FRAIS"
 2025-01-03,"24eme // Vincent LAURENT Salaire 12/24",-2653.42,transfer,qonto24emepro,2025-01-03,2025-01-03,"24eme // Vincent LAURENT Salaire 12/24"
