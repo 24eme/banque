@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-02-07,"CIVA 24EME 2024123101297",3510,income,qonto24emepro,2025-02-07,2025-02-07,"CIVA 24EME 2024123101297"
 2025-02-05,"RECYCLIVRE",-39.52,card,qonto24emepro,2025-02-05,2025-02-05,"RECYCLIVRE"
 2025-02-05,"Alan Insurance ALAN CONTRAT SANTE 33768",-1344,direct_debit,qonto24emepro,2025-02-05,2025-02-05,"Alan Insurance ALAN CONTRAT SANTE 33768"
 2025-02-05,"24eme // Vincent LAURENT salaire 01/25",-2636.9,transfer,qonto24emepro,2025-02-05,2025-02-05,"24eme // Vincent LAURENT salaire 01/25"
