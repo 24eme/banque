@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2025-03-28,"SYNDICAT DES COTES DE PROVENCE 24EME",4350,income,qonto24emepro,2025-03-28,2025-03-28,"SYNDICAT DES COTES DE PROVENCE 24EME"
 2025-03-28,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-28,2025-03-28,"Qonto sepa_inbound_transfer"
+2025-03-28,"Ass. Viticulteurs d'Alsace Fa 2024103101258  AVA",2400,income,qonto24emepro,2025-03-28,2025-03-28,"Ass. Viticulteurs d'Alsace Fa 2024103101258  AVA"
 2025-03-27,"VIR RBST PARTIEL INTERESMT HONO",-2000,0,creditmutuel24emepro,2025-03-27,2025-03-27,"RBST PARTIEL INTERESMT HONO"
 2025-03-26,"SOCIETE NOUVELLE",-52.76,card,qonto24emepro,2025-03-26,2025-03-26,"SOCIETE NOUVELLE"
 2025-03-26,"Qonto sepa_outbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-26,2025-03-26,"Qonto sepa_outbound_transfer"
