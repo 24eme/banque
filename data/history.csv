@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2025-03-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance mars 2025",-649.2,direct_debit,qonto24emepro,2025-03-31,2025-03-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance mars 2025"
 2025-03-31,"Qonto sepa_outbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-31,2025-03-31,"Qonto sepa_outbound_transfer"
+2025-03-31,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-31,2025-03-31,"Qonto sepa_inbound_transfer"
 2025-03-31,"INTERVINS F/ 20250131 2025013101307 T1 INTERVINS",1402.5,income,qonto24emepro,2025-03-31,2025-03-31,"INTERVINS F/ 20250131 2025013101307 T1 INTERVINS"
 2025-03-28,"SYNDICAT DES COTES DE PROVENCE 24EME",4350,income,qonto24emepro,2025-03-28,2025-03-28,"SYNDICAT DES COTES DE PROVENCE 24EME"
 2025-03-28,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-28,2025-03-28,"Qonto sepa_inbound_transfer"
