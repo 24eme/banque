@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-04-01,"SYNDICAT GENERAL DES C.D.R 24 EME  TMA+HEBERGEMENT 1T2025",3570,income,qonto24emepro,2025-04-01,2025-04-01,"SYNDICAT GENERAL DES C.D.R 24 EME  TMA+HEBERGEMENT 1T2025"
 2025-03-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance mars 2025",-649.2,direct_debit,qonto24emepro,2025-03-31,2025-03-31,"S.A.S. SILLAGE EXPERTS P prelevement echeance mars 2025"
 2025-03-31,"Qonto sepa_outbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-31,2025-03-31,"Qonto sepa_outbound_transfer"
 2025-03-31,"Qonto sepa_inbound_transfer",-0.48,qonto_fee,qonto24emepro,2025-03-31,2025-03-31,"Qonto sepa_inbound_transfer"
