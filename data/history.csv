@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-06-30,"Association Debian France Don 24eme",-216,transfer,qonto24emepro,2025-06-30,2025-06-30,"Association Debian France Don 24eme"
 2025-06-30,"24eme // Jean-Baptiste LE METAYER NDF 07/2024 - 06/2025",-885.19,transfer,qonto24emepro,2025-06-30,2025-06-30,"24eme // Jean-Baptiste LE METAYER NDF 07/2024 - 06/2025"
 2025-06-27,"Ass. Viticulteurs d'Alsace Fa 2025053101404 + 1405 AVA",9750,income,qonto24emepro,2025-06-27,2025-06-27,"Ass. Viticulteurs d'Alsace Fa 2025053101404 + 1405 AVA"
 2025-06-25,"DGFIP TVA1-062025-3310CA3",-8136,direct_debit,qonto24emepro,2025-06-25,2025-06-25,"DGFIP TVA1-062025-3310CA3"
