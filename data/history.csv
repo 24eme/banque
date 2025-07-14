@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-07-14,"Ryohin Keikaku France",24.45,card,qonto24emepro,2025-07-14,2025-07-14,"Ryohin Keikaku France"
 2025-07-11,"SNCF-VOYAGEURS",-105,card,qonto24emepro,2025-07-11,2025-07-11,"SNCF-VOYAGEURS"
 2025-07-11,"SATEC SA Assurance Bureau A86220 24EME CS001120250769",-262.93,transfer,qonto24emepro,2025-07-11,2025-07-11,"SATEC SA Assurance Bureau A86220 24EME CS001120250769"
 2025-07-11,"Qonto solo_smart_2024 7",-128.14,qonto_fee,qonto24emepro,2025-07-11,2025-07-11,"Qonto solo_smart_2024 7"
