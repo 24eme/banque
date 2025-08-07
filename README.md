@@ -1,4 +1,4 @@
-# Activité bancaire du 24ème
+# Activité bancaire du 24ème 
 
 Mise à disposition automatique de l'historique bancaire du 24ème.
 
