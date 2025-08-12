@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-08-12,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT TMA 3eme trim   Hebergement",90.53,income,qonto24emepro,2025-08-12,2025-08-12,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT TMA 3eme trim   Hebergement"
 2025-08-11,"MONOPRIX",-9.09,card,qonto24emepro,2025-08-11,2025-08-11,"MONOPRIX"
 2025-08-10,"SNCF-VOYAGEURS",-232,card,qonto24emepro,2025-08-10,2025-08-10,"SNCF-VOYAGEURS"
 2025-08-07,"24eme // Jean-Baptiste LE METAYER NDF 08/2025",-206.49,transfer,qonto24emepro,2025-08-07,2025-08-07,"24eme // Jean-Baptiste LE METAYER NDF 08/2025"
