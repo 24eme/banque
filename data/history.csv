@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-08-18,"INTER-MED Hebergement 3eme trimestre",1047.3,income,qonto24emepro,2025-08-18,2025-08-18,"INTER-MED Hebergement 3eme trimestre"
 2025-08-15,"Sysnove Paiement facture Sysnove 8061",-672.3,direct_debit,qonto24emepro,2025-08-15,2025-08-15,"Sysnove Paiement facture Sysnove 8061"
 2025-08-14,"ADM ASSOCIATION F 2025073101460",2520,income,qonto24emepro,2025-08-14,2025-08-14,"ADM ASSOCIATION F 2025073101460"
 2025-08-12,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT TMA 3eme trim   Hebergement",90.53,income,qonto24emepro,2025-08-12,2025-08-12,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT TMA 3eme trim   Hebergement"
