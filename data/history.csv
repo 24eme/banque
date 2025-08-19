@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-08-19,"URSSAF D ILE DE FRANCE UR 117000001551966813    JUIL25788617793000190825",-8266,direct_debit,qonto24emepro,2025-08-19,2025-08-19,"URSSAF D ILE DE FRANCE UR 117000001551966813    JUIL25788617793000190825"
 2025-08-18,"INTER-MED Hebergement 3eme trimestre",1047.3,income,qonto24emepro,2025-08-18,2025-08-18,"INTER-MED Hebergement 3eme trimestre"
 2025-08-18,"FEDERATION DROMOISE DES IGP VITICOLES Facture num 2025073101444",715.8,income,qonto24emepro,2025-08-18,2025-08-18,"FEDERATION DROMOISE DES IGP VITICOLES Facture num 2025073101444"
 2025-08-15,"Sysnove Paiement facture Sysnove 8061",-672.3,direct_debit,qonto24emepro,2025-08-15,2025-08-15,"Sysnove Paiement facture Sysnove 8061"
