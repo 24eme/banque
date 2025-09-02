@@ -17,8 +17,8 @@ rm -f $HISTORY_FILE".old" $HISTORY_FILE".new"
 
 git diff $HISTORY_FILE
 
-git add $HISTORY_FILE
-git commit -m "Mise à jour des opérations" $HISTORY_FILE > /dev/null
+#git add $HISTORY_FILE
+#git commit -m "Mise à jour des opérations" $HISTORY_FILE > /dev/null
 
 boobank list -f csv | grep $ACCOUNT_ID | sed -r 's/^.+@//' | awk -F ';' '{ print $3 "," $8 "," $9 "," $4 "," $7 "," $1}' > $LIST_FILE.tmp
 
