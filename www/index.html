@@ -258,10 +258,10 @@
 
  // Loads balance data
  d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
-     $("#solde_creditmutuel").html(formatCurrency(_.filter(data,function (x){return /Eurocompte/.test(x.label);})[0].balance));
+     $("#solde_creditmutuel").html(formatCurrency(_.filter(data,function (x){return /Crédit Mutuel/.test(x.label);})[0].balance));
  });
  d3.csv("//raw.githubusercontent.com/24eme/banque/master/data/list.csv", function(data) {
-     $("#solde_qonto").html(formatCurrency(_.filter(data,function (x){return /Quonto/.test(x.label);})[0].balance));
+     $("#solde_qonto").html(formatCurrency(_.filter(data,function (x){return /Qonto/.test(x.label);})[0].balance));
  });
  
  
