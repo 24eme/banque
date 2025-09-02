@@ -25,8 +25,8 @@ cat $HISTORY_FILE".new" $HISTORY_FILE".old" | sed 's/,\(2[0-9-]*\),null,/,\1,\1,
 mv $HISTORY_FILE".tmp" $HISTORY_FILE
 rm -f $HISTORY_FILE".old" $HISTORY_FILE".new"
 
-#git add $HISTORY_FILE
-#git commit -m "Mise à jour des opérations (qonto)" $HISTORY_FILE > /dev/null
+git add $HISTORY_FILE
+git commit -m "Mise à jour des opérations (qonto)" $HISTORY_FILE > /dev/null
 
 curl -s -H "Authorization: $QONTO_IDENTIFIANT:$QONTO_SECRET" "https://thirdparty.qonto.com/v2/bank_accounts" | jq ".bank_accounts[] | select(.iban==\"$QONTO_IBAN\")" | jq -c "[.name,.balance,.authorized_balance,.currency,\"\",\"$QONTO_COMPTEBANCAIRE_NOM\"]" | sed 's/"//g' | sed 's/\[//' | sed 's/\]//' > $LIST_FILE.tmp
 
@@ -36,7 +36,7 @@ echo "label,balance,coming,currency,type,id" > $LIST_FILE
 cat $LIST_FILE.tmp | sort >> $LIST_FILE
 rm $LIST_FILE.tmp
 
-#git add $LIST_FILE
-#git commit -m "Mise à jour du solde (qonto)" $LIST_FILE > /dev/null
+git add $LIST_FILE
+git commit -m "Mise à jour du solde (qonto)" $LIST_FILE > /dev/null
 
-#git push 2>&1 | grep -v "Everything up-to-date"
+git push 2>&1 | grep -v "Everything up-to-date"
