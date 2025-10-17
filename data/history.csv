@@ -1,6 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2025-10-16,"URSSAF D'ILE DE FRANCE UR 117000001551966813    SEPT25788617793000161025",-8394,direct_debit,qonto24emepro,2025-10-16,2025-10-16,"URSSAF D'ILE DE FRANCE UR 117000001551966813    SEPT25788617793000161025"
 2025-10-16,"REM CHQ REF06027A04",198.66,other,creditmutuel24emepro,2025-10-16,2025-10-16,"REM CHQ REF06027A04"
+2025-10-16,"DEPOT DISTRIBUTEUR CHQ OU ESP  Cette opération sera traitée dans les meilleurs délais.",5610,other,creditmutuel24emepro,2025-10-16,2025-10-16,"DEPOT DISTRIBUTEUR CHQ OU ESP  Cette opération sera traitée dans les meilleurs délais."
 2025-10-15,"UNION VITICOLE MENETOU SALON Projet commun ODG Centre 3eme trimestre",407.75,income,qonto24emepro,2025-10-15,2025-10-15,"UNION VITICOLE MENETOU SALON Projet commun ODG Centre 3eme trimestre"
 2025-10-15,"Sysnove Paiement facture Sysnove 8253",-504.3,direct_debit,qonto24emepro,2025-10-15,2025-10-15,"Sysnove Paiement facture Sysnove 8253"
 2025-10-14,"KAWA COFFEE",-181.46,card,qonto24emepro,2025-10-14,2025-10-14,"KAWA COFFEE"
