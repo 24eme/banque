@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2025-12-02,"SYNDICAT GENERAL DES C.D.R 24 EME TMA F/2025083101472+2025093001478",1170,income,qonto24emepro,2025-12-02,2025-12-02,"SYNDICAT GENERAL DES C.D.R 24 EME TMA F/2025083101472+2025093001478"
 2025-12-01,"SCALEWAY",-948.78,card,qonto24emepro,2025-12-01,2025-12-01,"SCALEWAY"
 2025-12-01,"S.A.S. SILLAGE EXPERTS P prelevement echeance novembre 2",-673.2,direct_debit,qonto24emepro,2025-12-01,2025-12-01,"S.A.S. SILLAGE EXPERTS P prelevement echeance novembre 2"
 2025-12-01,"MONOPRIX",-20.18,card,qonto24emepro,2025-12-01,2025-12-01,"MONOPRIX"
