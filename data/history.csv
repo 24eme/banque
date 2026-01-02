@@ -1,4 +1,8 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2026-01-02,"24eme // Vincent LAURENT salaire 12/2025",-2684.7,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Vincent LAURENT salaire 12/2025"
+2026-01-02,"24eme // Tanguy LE FAUCHEUR salaire 12/2025",-1873.21,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Tanguy LE FAUCHEUR salaire 12/2025"
+2026-01-02,"24eme // Tangui MORLIER salaire 12/2025",-2592.67,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Tangui MORLIER salaire 12/2025"
+2026-01-02,"24eme // Jean-Baptiste LE METAYER salaire 12/2025",-2515.37,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Jean-Baptiste LE METAYER salaire 12/2025"
 2026-01-02,"24eme // Gabriel POMA salaire 12/2025",-2450.75,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Gabriel POMA salaire 12/2025"
 2026-01-02,"24eme // Charlène HOUNSOU-GUEDE salaire 12/2025",-1936.85,transfer,qonto24emepro,2026-01-02,2026-01-02,"24eme // Charlène HOUNSOU-GUEDE salaire 12/2025"
 2025-12-31,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT 4eme trim hebergement",90.53,income,qonto24emepro,2025-12-31,2025-12-31,"SYNDIC   GESTION DES VINS DE CHATEAUMEILLANT 4eme trim hebergement"
