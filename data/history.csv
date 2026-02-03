@@ -1,5 +1,7 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2026-02-03,"24eme // Vincent LAURENT salaire 01/26",-2716.4,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Vincent LAURENT salaire 01/26"
+2026-02-03,"24eme // Tanguy LE FAUCHEUR salaire 01/26",-2067.64,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Tanguy LE FAUCHEUR salaire 01/26"
+2026-02-03,"24eme // Tanguy LE FAUCHEUR notes de frais 09/25-01/26",-187.86,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Tanguy LE FAUCHEUR notes de frais 09/25-01/26"
 2026-02-03,"24eme // Tangui MORLIER salaire 01/26",-2592.96,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Tangui MORLIER salaire 01/26"
 2026-02-03,"24eme // Jean-Baptiste LE METAYER salaire 01/26",-2548.89,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Jean-Baptiste LE METAYER salaire 01/26"
 2026-02-03,"24eme // Gabriel POMA salaire 01/26",-2451.22,transfer,qonto24emepro,2026-02-03,2026-02-03,"24eme // Gabriel POMA salaire 01/26"
