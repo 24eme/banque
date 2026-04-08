@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2026-04-08,"Alan Insurance ALAN SANTE 33768",-1443.3,direct_debit,qonto24emepro,2026-04-08,2026-04-08,"Alan Insurance ALAN SANTE 33768"
+2026-04-07,"SNCF-VOYAGEURS",-230,card,qonto24emepro,2026-04-07,2026-04-07,"SNCF-VOYAGEURS"
 2026-04-07,"INST NAT PROPRIETE IND",5.9,card,qonto24emepro,2026-04-07,2026-04-07,"INST NAT PROPRIETE IND"
 2026-04-06,"INST NAT PROPRIETE IND",6.66,card,qonto24emepro,2026-04-06,2026-04-06,"INST NAT PROPRIETE IND"
 2026-04-03,"24eme // Vincent LAURENT Salaire 03/2026",-2716.4,transfer,qonto24emepro,2026-04-03,2026-04-03,"24eme // Vincent LAURENT Salaire 03/2026"
