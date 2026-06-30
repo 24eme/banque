@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2026-06-30,"S.A.S. SILLAGE EXPERTS P prelevement echeance juin 2026",-662.4,direct_debit,qonto24emepro,2026-06-30,2026-06-30,"S.A.S. SILLAGE EXPERTS P prelevement echeance juin 2026"
 2026-06-30,"Qonto fx_card",-1.87,qonto_fee,qonto24emepro,2026-06-30,2026-06-30,"Qonto fx_card"
 2026-06-30,"Qonto fx_card",-1.45,qonto_fee,qonto24emepro,2026-06-30,2026-06-30,"Qonto fx_card"
 2026-06-30,"Qonto fx_card",-1.03,qonto_fee,qonto24emepro,2026-06-30,2026-06-30,"Qonto fx_card"
