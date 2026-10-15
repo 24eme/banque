@@ -1,5 +1,6 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
 2026-10-15,"Sysnove Paiement facture Sysnove 9445",-390.3,direct_debit,qonto24emepro,2026-10-15,2026-10-15,"Sysnove Paiement facture Sysnove 9445"
+2026-10-15,"FEDERATION DES VINS DE NANTES F 2026093001715 DU 30/09/26        TMA",390,income,qonto24emepro,2026-10-15,2026-10-15,"FEDERATION DES VINS DE NANTES F 2026093001715 DU 30/09/26        TMA"
 2026-10-12,"FACT SGT26060640003273  DONT TVA 1.68EUR",-97.72,external_fees,creditmutuel24emepro,2026-10-12,2026-10-12,"FACT SGT26060640003273  DONT TVA 1.68EUR"
 2026-10-09,"SYNDICAT DES COTES DE PROVENCE 2026083101699",1170,income,qonto24emepro,2026-10-09,2026-10-09,"SYNDICAT DES COTES DE PROVENCE 2026083101699"
 2026-10-09,"Stichting Nlnet 2024-12-197. t-1.k. t-3.c. t-4.d. t-5. t-8. t-9 donation",9100,income,qonto24emepro,2026-10-09,2026-10-09,"Stichting Nlnet 2024-12-197. t-1.k. t-3.c. t-4.d. t-5. t-8. t-9 donation"
