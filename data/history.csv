@@ -1,5 +1,8 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2026-11-04,"OVH SAS payment for order 261788266",-8.9,direct_debit,qonto24emepro,2026-11-04,2026-11-04,"OVH SAS payment for order 261788266"
+2026-11-04,"OVH SAS payment for order 261787008",-10.79,direct_debit,qonto24emepro,2026-11-04,2026-11-04,"OVH SAS payment for order 261787008"
 2026-11-04,"CIVA 24EME 2026093001711",4680,income,qonto24emepro,2026-11-04,2026-11-04,"CIVA 24EME 2026093001711"
+2026-11-04,"Alan Insurance ALAN HEALTH 2026-10-00",-1443.3,direct_debit,qonto24emepro,2026-11-04,2026-11-04,"Alan Insurance ALAN HEALTH 2026-10-00"
 2026-11-03,"SCALEWAY",-59.98,card,qonto24emepro,2026-11-03,2026-11-03,"SCALEWAY"
 2026-11-03,"MILKI",-199.4,card,qonto24emepro,2026-11-03,2026-11-03,"MILKI"
 2026-11-03,"Ass. Viticulteurs d'Alsace Fa 2026093001712  AVA",1620,income,qonto24emepro,2026-11-03,2026-11-03,"Ass. Viticulteurs d'Alsace Fa 2026093001712  AVA"
