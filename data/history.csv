@@ -1,4 +1,5 @@
 date,"raw",amount,type,id,rdate,vdate,"label"
+2026-11-05,"24eme // Jean-Baptiste LE METAYER NDF 11/2026",-68.1,transfer,qonto24emepro,2026-11-05,2026-11-05,"24eme // Jean-Baptiste LE METAYER NDF 11/2026"
 2026-11-04,"OVH SAS payment for order 261788266",-8.9,direct_debit,qonto24emepro,2026-11-04,2026-11-04,"OVH SAS payment for order 261788266"
 2026-11-04,"OVH SAS payment for order 261787008",-10.79,direct_debit,qonto24emepro,2026-11-04,2026-11-04,"OVH SAS payment for order 261787008"
 2026-11-04,"DA PARIDE",-64,card,qonto24emepro,2026-11-04,2026-11-04,"DA PARIDE"
